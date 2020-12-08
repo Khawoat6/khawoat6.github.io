@@ -1,0 +1,64 @@
+/**
+ * Navbar component
+ *
+ */
+
+
+.nav {
+  background-color: $primary-color;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  //box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+
+  .nav-content {
+
+    //max-width: 900px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .nav-logo {
+      height: 50px;
+      width: 50px;
+
+      &:hover {
+          cursor: pointer;
+      }
+    }
+
+    .nav-items {
+        font-family: $font-family-primary;
+        font-size: $font-size-h6;
+        font-weight: $font-weight-six;
+        color: $white-color;
+        display:flex;
+        flex-direction: row;
+
+        .nav-item {
+            display: inline;
+            margin-left: 2rem;
+            color: $blue-sea-color;
+
+            strong {
+                color: $white-color;
+            }
+
+            &:hover {
+
+                strong {
+                    color: $blue-sea-color;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+  }
+}
+

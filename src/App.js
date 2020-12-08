@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+/* function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello Oat Phattaraphon</h1>
     </div>
   );
+}
+
+export default App; */
+
+/* import styled from 'styled-components'; */
+import React from "react";
+
+// IMPORT COMPONENTS
+import Navbar from "./components/Navbar";
+//import Section from "./components/Section";
+import About from "./components/Section";
+import Hero from "./components/sections/Hero";
+
+import dummyText from "./components/DummyText";
+
+// IMPORT STYLE
+import './assets/sass/_main.scss';
+
+function App() {
+    return (
+      <div className="App">
+        <Navbar />
+        <Hero />
+        <About
+          title="About"
+          subtitle={dummyText}
+          dark={true}
+          id="about"
+        />
+        <About
+          title="Experience"
+          subtitle={dummyText}
+          dark={false}
+          id="experience"
+        />
+        <About
+          title="Work"
+          subtitle={dummyText}
+          dark={true}
+          id="work"
+        />
+        <About
+          title="Contact"
+          subtitle={dummyText}
+          dark={false}
+          id="contact"
+        />
+      </div>
+    );
 }
 
 export default App;

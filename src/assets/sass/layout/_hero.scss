@@ -1,0 +1,77 @@
+.hero {
+    //max-width: 900px;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 1000;
+    background-color: $primary-color;
+    color: $white-color;
+    padding: 100px 0;
+    font-family: $font-family-primary;
+
+
+    .hero-row1 {
+        font-size: $font-size-h5;
+        font-weight: $font-weight-six;
+        color: $blue-sea-color;
+        padding: 10px 0;
+        margin: 0 0 30px 4px;
+
+        @media (max-width: 480px) {
+            margin: 0 0 20px 2px;
+    }
+    }
+
+    .hero-row2 {
+        font-size: $font-size-h1;
+        font-family: $font-family-secondary;
+        font-weight: $font-weight-secondary;
+        color: $purple-color;
+        line-height: $line-height-88;
+        letter-spacing: $letter-spacing-primary;
+
+    }
+    
+    .hero-row3 {
+        font-size: $font-size-h2;
+        font-family: $font-family-secondary;
+        font-weight: $font-weight-secondary;
+        line-height: $line-height-72;
+        letter-spacing: $letter-spacing-primary;
+
+    }
+
+    .hero-row4 {
+        font-size: $font-size-h5;
+        font-family: $font-family-secondary;
+        max-width: 600px;
+        margin: 20px 0 0;
+        font-weight: $font-weight-six;
+        letter-spacing: $letter-spacing-primary;
+        line-height: $line-height-26;
+        color: $gray-color;
+
+    }
+
+    .hero-row5 {
+        padding-top: 80px;
+
+        a {
+            background-color: transparent;
+            padding: 20px 28px;
+            margin-top: 150px;
+            border: 1px solid $blue-sea-color;
+            border-radius: 5px;
+            color: $blue-sea-color;
+            font-family: $font-family-primary;
+            font-weight: $font-weight-six;
+            text-decoration: none;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
