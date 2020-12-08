@@ -6,12 +6,25 @@
 
 .nav {
   background-color: $primary-color;
-  position: absolute;
+  // position: absolute;
+  position: fixed;
   top: 0px;
   width: 100%;
   height: 80px;
   z-index: 1000;
   //box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  pointer-events: auto !important;
+  filter: none !important;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  @media (max-width: 1080px) {
+    padding: 0 40px;
+  }
+  @media (max-width: 768px) {
+    padding: 0 25px;
+  }
+
 
   .nav-content {
 

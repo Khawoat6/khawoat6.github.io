@@ -9,6 +9,21 @@
         padding: 10px 16px;
         color: $blue-sea-color;
         text-decoration: none;
+        background-color: transparent;
+        cursor: pointer;
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $green-tint;
+            outline: none;
+        }
+        
+        &:after {
+            display: none !important;
+        }
     }
 
     /* &:hover {
