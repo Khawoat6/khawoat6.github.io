@@ -23,7 +23,9 @@ function App() {
       <div className="side-left">
         <Social />
       </div>
-      <div className="side-right">{/* <Side /> */}</div>
+      <div className="side-right">
+        <Side />
+      </div>
       <Hero />
 
       <About id="about" />
