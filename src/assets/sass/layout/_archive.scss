@@ -1,0 +1,29 @@
+
+
+.archive {
+    max-width: 1600px;
+    padding: 200px 150px;
+
+    .archive-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .big-herder {
+            color: $white-color;
+            font-size: $font-size-h1;
+            font-family: $font-family-secondary;
+            font-weight: $font-weight-primary;
+
+        }
+
+        .subtitle {
+            color: $blue-sea-color;
+            font-size: $font-size-h5;
+            font-family: $font-family-primary;
+            font-weight: $font-weight-primary;
+            
+        }
+
+    }
+
+}

@@ -1,19 +1,32 @@
 {
   "homepage": "http://khawoat6.github.io",
+  "description": "Personal Website v1",
   "name": "khawoat.github.io",
+  "author": "Oat Phattaraphon <phattaraphon.c@ku.th>",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khawoat6/khawoat6.github.io"
+  },
+  "keywords": [
+    "react"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",
     "styled-components": "^5.2.1",
+    "styled-loaders-react": "^1.1.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

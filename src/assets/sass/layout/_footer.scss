@@ -1,0 +1,55 @@
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding: 15px 5px;
+    min-height: 70px;
+    text-align: center;
+    width: 100%;
+    
+    .footer-wrapper {
+
+        a {
+            color: $gray-color;
+            font-size: $font-size-h7;
+            font-family: $font-family-primary;
+            font-weight: $font-weight-six;
+            text-decoration: none;
+
+            &:hover {
+                transform: translate(0, -3px);
+                transition-delay: 0.1s;
+                color: $blue-sea-color;
+            }
+
+            @media (max-width: 768px) {
+                display: block;
+                width: 100%;
+                max-width: 270px;
+                margin: 0 auto 10px;
+                color: $blue-sea-color;
+            }
+
+            div {
+
+            }
+
+            .github-stats {
+                margin-top: 10px;
+
+                & > span {
+                    display: inline-flex;
+                    align-items: center;
+                    margin: 0 7px;
+                }
+
+                svg {
+                    display: inline-block;
+                    margin-right: 5px;
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+        }
+    }
+}
