@@ -1,0 +1,83 @@
+
+.contact {
+    max-width: 600px;
+    min-height: 80vh;
+    width:100%;
+    padding: 100px 0;
+
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .numbered-heading {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 20px;
+
+            h2 {
+                color: $blue-sea-color;
+                font-size: $font-size-h4;
+                font-weight: $font-weight-six;
+                font-family: $font-family-primary;
+            }
+
+            h3 {
+                color: $purple-color;
+                font-size: $font-size-h3;
+                font-weight: $font-weight-secondary;
+                font-family: $font-family-secondary;
+                margin-left: 30px;
+            }
+        }
+
+        .title {
+            text-align:center;
+            margin-top: 20px;
+            color: $white-color;
+            font-size: 60px;
+            font-family: $font-family-secondary;
+            font-weight: $font-weight-secondary;
+        }
+
+        p {
+            text-align:center;
+            color: $gray-color;
+            margin-top: 15px;
+            font-size: $font-size-h5;
+            font-family: $font-family-secondary;
+            font-weight: $font-weight-six;
+            line-height: $line-height-26;
+        }
+
+        .button-say-hello {
+            margin-top: 40px;
+            padding: 20px 28px;
+            text-align: center;
+
+            a {
+                border-radius: 5px;
+                border: 1px solid $blue-sea-color;
+                padding: 20px 28px;
+                color: $blue-sea-color;
+                text-decoration: none;
+                background-color: transparent;
+                cursor: pointer;
+                transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+                font-family: $font-family-primary;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    background-color: $green-tint;
+                    outline: none;
+                }
+                
+                &:after {
+                    display: none !important;
+                }
+            }
+        }
+    }
+}

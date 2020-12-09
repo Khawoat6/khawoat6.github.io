@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 // import About from './components/Section';
 import Hero from './components/sections/Hero';
 import About from '../src/components/sections/About';
+import Contact from '../src/components/sections/Contact';
 
 import dummyText from './components/DummyText';
 import Side from './components/Side';
@@ -36,7 +37,7 @@ function App() {
         id="experience"
       />
       <About title="Work" subtitle={dummyText} dark={true} id="work" />
-      <About title="Contact" subtitle={dummyText} dark={false} id="contact" />
+      <Contact id="contact" />
     </div>
   );
 }
