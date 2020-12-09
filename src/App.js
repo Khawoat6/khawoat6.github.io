@@ -10,6 +10,7 @@ import About from '../src/components/sections/About';
 
 import dummyText from './components/DummyText';
 import Side from './components/Side';
+import Social from './components/Social';
 
 // IMPORT STYLE
 import './assets/sass/_main.scss';
@@ -18,8 +19,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+
+      <div className="side-left">
+        <Social />
+      </div>
+      <div className="side-right">{/* <Side /> */}</div>
       <Hero />
-      <Side />
 
       <About id="about" />
       <About

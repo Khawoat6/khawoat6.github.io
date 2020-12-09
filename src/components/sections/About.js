@@ -32,11 +32,19 @@ function About({ id }) {
               </p>
               <p>
                 Shortly after graduating from{' '}
-                <a href="https://www.ku.ac.th/th" target="_blank">
+                <a
+                  href="https://www.ku.ac.th/th"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Kasetsart University
                 </a>
                 , I joined the engineering team at{' '}
-                <a href="https://www.boonmeelab.com/" target="_blank">
+                <a
+                  href="https://www.boonmeelab.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Boonmee Lab
                 </a>{' '}
                 where I work on a wide variety of interesting and meaningful
