@@ -67,9 +67,17 @@
             font-family: $font-family-primary;
             font-weight: $font-weight-six;
             text-decoration: none;
-
-            &:hover {
+            
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: $green-tint;
+                outline: none;
                 cursor: pointer;
+            }
+
+            &:after {
+                display: none !important;
             }
         }
     }

@@ -4,8 +4,9 @@ import React from 'react';
 // IMPORT COMPONENTS
 import Navbar from './components/Navbar';
 //import Section from "./components/Section";
-import About from './components/Section';
+// import About from './components/Section';
 import Hero from './components/sections/Hero';
+import About from '../src/components/sections/About';
 
 import dummyText from './components/DummyText';
 import Side from './components/Side';
@@ -20,7 +21,7 @@ function App() {
       <Hero />
       <Side />
 
-      <About title="About" subtitle={dummyText} dark={true} id="about" />
+      <About id="about" />
       <About
         title="Experience"
         subtitle={dummyText}
