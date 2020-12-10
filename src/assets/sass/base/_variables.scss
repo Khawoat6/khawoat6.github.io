@@ -26,6 +26,7 @@ $gray-color: #8892b0;
 $green-tint: rgba(100, 255, 218, 0.1);
 
 
+
 /**
  *  Font & Text
  *
@@ -35,7 +36,7 @@ $green-tint: rgba(100, 255, 218, 0.1);
 $font-family-primary: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 $font-family-secondary : 'Open Sans', sans-serif;
 $font-family-third : 'Kanit', sans-serif;
-
+$font-family-fourth: 'Montserrat', sans-serif;
 
 // font-size
 $font-size-h1: 80px;
@@ -56,6 +57,7 @@ $font-weight-third: 500;
 $font-weight-fourth: 400;
 $font-weight-fifth: 300;
 $font-weight-six: 200;
+$font-weight-seven: 100;
 //$font-weight-primary: 900;
 //$font-weight-secondary: 800;
 
@@ -129,3 +131,44 @@ $height-50: 50%;
  * Effects
  *
  */
+
+ $easing: cubic-bezier(0.645, 0.045, 0.355, 1);
+ $transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+ $hamburger-width: 30px;
+ $ham-before: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
+ $ham-before-active: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
+ $ham-after: bottom 0.1s ease-in 0.25s, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+ $ham-after-active: bottom 0.1s ease-out, transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+
+
+
+$background-color-dark: #121429;
+$background-color-light: #FFFFFF;
+// $background-color-light: #E7EEED;
+
+$complimentary-color-dark: #393B43;
+$complimentary-color-light: #FEFFFF;
+
+body {
+  background-color: $background-color-light;
+  color: #1544C0;
+
+  .skills-category-item {
+    color: $gray-color;
+  }
+}
+
+body.dark-mode {
+  background-color: $background-color-dark;
+  color: $purple-color;
+
+  .skills-category-item {
+    li {
+      color: $red-color
+    }
+  }
+
+
+
+}

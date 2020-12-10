@@ -3,91 +3,75 @@
  *
  */
 
- @mixin heading-font {
-    font-family: sans-serif;
-    font-weight: bold;
+
+
+
+// Media queries
+$fifteen-inch: 1440px;
+$thirteen-inch: 1280px;
+$desktop-width: 1024px;
+$little-desktop: 850px;
+$tablet-width: 768px;
+$weird-not-tablet-width: 630px;
+$phablet-width: 550px;
+$mobile-width: 480px;
+$small-mobile-width: 360px;
+$tiny-mobile-width: 330px;
+
+@mixin transition {
+  transition: all 0.2s ease-in-out;
 }
 
-/*
-h1 {
-    @include heading-font;
-}
-*/
-
-// with parameters
-@mixin font-size($n) {
-    font-size: $n * 1.2em;
+@mixin thirteen {
+  @media screen and (max-width: #{$thirteen-inch}) {
+    @content;
+  }
 }
 
-/*
-body {
-    @include font-size(2);
-}
-*/
-
-// with default values
-@mixin pad($n: 10px) {
-    padding: $n;
+@mixin desktop {
+  @media screen and (max-width: #{$desktop-width}) {
+    @content;
+  }
 }
 
-/*
-body {
-    @include pad(15px);
-}
-*/
-
-// with a default variable
-// Set a default value
-$default-padding: 10px;
-
-@mixin pad($n: $default-padding) {
-    padding: $n;
+@mixin little-desktop {
+  @media screen and (max-width: #{$little-desktop}) {
+    @content;
+  }
 }
 
-/*
-body {
-    @include pad(15px);
-}
-*/
-
-@mixin transform($property) {
-    -webkit-transform: $property;
-    -ms-transform: $property;
-    transform: $property;
+@mixin tablet {
+  @media screen and (max-width: #{$tablet-width}) {
+    @content;
+  }
 }
 
-.box {
-    @include transform(rotate(30deg));
+@mixin weird-medium {
+  @media screen and (max-width: #{$weird-not-tablet-width}) {
+    @content;
+  }
 }
 
-/* This CSS will print because %message-shared is extended. */
-%message-shared {
-    border: 1px solid #ccc;
-    padding: 10px;
-    color: #333;
+@mixin phablet {
+  @media screen and (max-width: #{$phablet-width}) {
+    @content;
+  }
 }
 
-// This CSS won't print because %equal-heights is never extended.
-%equal-heights {
-    display: flex;
-    flex-wrap: wrap;
+@mixin mobile {
+  @media screen and (max-width: #{$mobile-width}) {
+    @content;
+  }
 }
 
-.message {
-    @extend %message-shared;
+@mixin small-mobile {
+  @media screen and (max-width: #{$small-mobile-width}) {
+    @content;
+  }
 }
 
-.success {
-    @extend %message-shared;
-    border-color: green;
-}
-
-.error {
-    @extend %message-shared;
-    border-color: red;
-}
-
-.warning {
-    @extend %message-shared;
-    border-color: yellow;
+@mixin tiny-mobile {
+  @media screen and (max-width: #{$tiny-mobile-width}) {
+    @content;
+  }
 }

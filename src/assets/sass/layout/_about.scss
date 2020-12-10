@@ -3,15 +3,33 @@
 .about {
     // display:flex;
     max-width: 900px;
-    min-height: 90vh;
+    // min-height: 90vh;
     // justify-content: center;
     // align-items: center;
     padding: 100px 0;
 
+  /*   @include thirteen {
+        padding: 100px;
+    }
+
+    @include desktop {
+        padding: 50px;
+    }
+
+    @include tablet {
+        display: block;
+    }
+
+    @include mobile {
+        padding: 50px 35px;
+    }
+ */
     .about-wrapper {
         // width: 100%;
         display: flex;
         flex-direction: column;
+
+        
 
 
         .about-title {
@@ -29,7 +47,7 @@
             }
 
             h3 {
-                color: $purple-color;
+                // color: $purple-color;
                 font-size: $font-size-h3;
                 font-weight: $font-weight-secondary;
                 font-family: $font-family-secondary;
@@ -46,8 +64,23 @@
             padding: 20px;
             margin-top: 5px;
 
+
+            @media (max-width: 768px) {
+                display: flex;
+                flex-direction: column;
+            }
+
+            @media (max-width: 768px) {
+                display: flex;
+                flex-direction: column;
+            }
+
             .inner-left {
                 width: 65%;
+
+                @media (max-width: 768px) {
+                    margin-bottom: 30px;
+                }
 
                 .inner-left-top {
 
@@ -58,6 +91,10 @@
                         font-family: $font-family-secondary;
                         font-weight: $font-weight-six;
                         line-height: $line-height-26;
+
+                        @media (max-width: 414px) {
+                            font-size: 16px;
+                        }
 
                         a {
                             color: $blue-sea-color;

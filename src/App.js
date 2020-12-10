@@ -23,6 +23,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 // import { SidebarData } from './components/SidebarData';
 // import { Link } from 'react-router-dom';
 
+import Skills from '../src/components/sections/Skills';
+
 const asyncFunc = () => {
   return new Promise((resolve) => {
     setTimeout(() => resolve(false), 4000);
@@ -66,7 +68,7 @@ class App extends React.Component {
             <Hero />
             <About id="about" />
             <About id="experience" />
-            {/* <Project id="work" /> */}
+            <Skills id="work" />
             <Contact id="contact" />
             <Footer />
           </Router>

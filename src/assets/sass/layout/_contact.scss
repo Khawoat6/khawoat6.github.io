@@ -5,6 +5,22 @@
     width:100%;
     padding: 100px 0;
 
+    @include thirteen {
+        padding: 100px;
+    }
+
+    @include desktop {
+        padding: 50px;
+    }
+
+    @include tablet {
+        display: block;
+    }
+
+    @include mobile {
+        padding: 50px 35px;
+    }
+
     .contact-wrapper {
         display: flex;
         flex-direction: column;
@@ -29,15 +45,20 @@
                 font-weight: $font-weight-six;
                 font-family: $font-family-primary;
                 margin-left: 30px;
+
             }
         }
 
         .title {
             text-align:center;
-            color: $white-color;
+            // color: $white-color;
             font-size: 60px;
             font-family: $font-family-secondary;
             font-weight: $font-weight-secondary;
+
+            @media (max-width: 414px) {
+                font-size: $font-size-h2;
+            }
         }
 
         p {
@@ -48,6 +69,10 @@
             font-family: $font-family-secondary;
             font-weight: $font-weight-six;
             line-height: $line-height-26;
+
+            @media (max-width: 414px) {
+                font-size: 14px;
+            }
         }
 
         .button-say-hello {

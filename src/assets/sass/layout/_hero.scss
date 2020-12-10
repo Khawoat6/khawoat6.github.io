@@ -1,46 +1,89 @@
 .hero {
     //max-width: 900px;
+    @include transition;
     min-height: 100vh;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-weight: 1000;
-    background-color: $primary-color;
-    color: $white-color;
+    // color: $white-color;
     padding: 100px 0;
     font-family: $font-family-primary;
+    transition: inherit;
+
+    @include thirteen {
+        padding: 100px;
+    }
+
+    @include desktop {
+        padding: 50px;
+    }
+
+    @include tablet {
+        display: block;
+    }
+
+/*     @include mobile {
+        padding: 50px 35px;
+    } */
 
     .hero-row1 {
         font-size: $font-size-h5;
         font-weight: $font-weight-six;
-        color: $blue-sea-color;
+        // color: $blue-sea-color;
+        // color: #1544C0;
         padding: 10px 0;
         margin: 0 0 30px 4px;
 
+        h1 {
+            &::selection {
+                background-color: $blue-sea-color;
+            }
+        }
+
         @media (max-width: 480px) {
             margin: 0 0 20px 2px;
-    }
+        }
     }
 
     .hero-row2 {
         font-size: $font-size-h1;
-        font-family: $font-family-secondary;
-        font-weight: $font-weight-secondary;
-        color: $purple-color;
+        font-family: $font-family-fourth;
+        font-weight: $font-weight-primary;
+        // color: $purple-color;
+        // color: #1544C0;
         line-height: $line-height-88;
         letter-spacing: $letter-spacing-primary;
+        transition-delay: 250ms;
+        transition-property: margin-right;
 
+        h1 {
+            &::selection {
+                background-color: $blue-sea-color;
+            }
+        }
     }
     
     .hero-row3 {
-        font-size: $font-size-h2;
-        font-family: $font-family-secondary;
-        font-weight: $font-weight-secondary;
-        line-height: $line-height-72;
+        font-size: $font-size-h1;
+        font-family: $font-family-fourth;
+        font-weight: $font-weight-primary;
+        // color: $purple-color;
+        // color: #1544C0;
+        line-height: $line-height-88;
+        margin-top: 5px;
         letter-spacing: $letter-spacing-primary;
+        transition-delay: 250ms;
+        transition-property: margin-right;
 
+        h1 {
+            &::selection {
+                background-color: $blue-sea-color;
+            }
+        }
     }
+
 
     .hero-row4 {
         font-size: $font-size-h5;
@@ -51,6 +94,12 @@
         letter-spacing: $letter-spacing-primary;
         line-height: $line-height-26;
         color: $gray-color;
+
+        h1 {
+            &::selection {
+                background-color: $blue-sea-color;
+            }
+        }
 
     }
 

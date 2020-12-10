@@ -1,9 +1,10 @@
 import React from 'react';
+import resume from '../assets/static/Resume_PhattaraphonC.pdf';
 
 function Button() {
     return (
         <div className="button">
-            <a href="https://bit.ly/3ovdfbC" target="_blank" rel="noreferrer">Resume</a>
+            <a href={resume} target="_blank" rel="noreferrer" class="arrow-link">Resume</a>
         </div>
     );
 }
