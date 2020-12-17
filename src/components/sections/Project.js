@@ -31,7 +31,7 @@ function Project({ id }) {
               </div>
               <div className="item-content">
                 <h2>SE TO-DO</h2>
-                <h3>SE To-Do is an easy-to-use time and task management application that helps you to manage tasks anywhere and anytime, and helps you to perform tasks efficiently. Millions of users around the world use our application and have gained efficiency.</h3>
+                <h3>SE To-Do is an easy-to-use time and task management application that helps you to manage tasks anywhere and anytime, and helps you to perform tasks efficiently.</h3>
               </div>
             </div>
             <div className="feature-project-details-item">
@@ -40,7 +40,7 @@ function Project({ id }) {
               </div>
               <div className="item-content">
                 <h2>SE TO-DO Landing page </h2>
-                <h3>SE To-Do is an easy-to-use time and task management application that helps you to manage tasks anywhere and anytime, and helps you to perform tasks efficiently. Millions of users around the world use our application and have gained efficiency.</h3>
+                <h3>SE To-Do is an easy-to-use time and task management application that helps you to manage tasks anywhere and anytime, and helps you to perform tasks efficiently.</h3>
               </div>
             </div>
 

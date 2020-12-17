@@ -53,7 +53,7 @@ class App extends React.Component {
       <div className="App">
         {this.state.isLoaded ? (
           <div className="loading">
-            <Scale color="#FFFFFF" size="50px" duration="1.4s" />
+            <Scale color="#1544C0" size="60px" duration="1.4s" />
           </div>
         ) : (
           <Router>
