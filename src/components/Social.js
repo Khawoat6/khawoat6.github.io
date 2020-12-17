@@ -2,10 +2,12 @@ import React from 'react';
 import * as AiIcons from 'react-icons/ai';
 import * as FaIcons from 'react-icons/fa';
 import * as FiIcons from 'react-icons/fi';
+import Slide from 'react-reveal/Slide';
 
 function Social() {
   return (
     <div className="social">
+      <Slide top cascade>
       <div className="social-wrapper">
         <div className="social-list">
           <a
@@ -54,6 +56,7 @@ function Social() {
         </div>
         <hr />
       </div>
+      </Slide>
     </div>
   );
 }

@@ -7,8 +7,10 @@ import Navbar from './components/Navbar';
 // import About from './components/Section';
 import Hero from './components/sections/Hero';
 import About from '../src/components/sections/About';
+import Experience from '../src/components/sections/Experience';
 import Contact from '../src/components/sections/Contact';
-// import Project from '../src/components/sections/Project';
+import Education from '../src/components/sections/Education';
+import Project from '../src/components/sections/Project';
 import Footer from '../src/components/Footer';
 
 import Side from './components/Side';
@@ -40,15 +42,12 @@ class App extends React.Component {
   async componentDidMount() {
     const isLoaded = await asyncFunc();
     this.setState({ isLoaded });
-
-    //test call api from port 5000
-    // axios.get('/getCountry').then(res=>{
-    //   console.log(res)
-    // })
   }
+  
   componentWillUnmount() {
     window.removeEventListener('resize', this.resizeLisener);
   }
+
   render() {
     return (
       <div className="App">
@@ -67,8 +66,10 @@ class App extends React.Component {
             </div>
             <Hero />
             <About id="about" />
-            <About id="experience" />
-            <Skills id="work" />
+            <Education id="education"/>
+            <Experience id="experience" />
+            <Skills id="skills" />
+            <Project id="project"/>
             <Contact id="contact" />
             <Footer />
           </Router>

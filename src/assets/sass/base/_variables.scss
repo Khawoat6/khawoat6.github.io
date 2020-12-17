@@ -14,16 +14,16 @@ $white-color: #FFFFFF;
 $black-color: #000000;
 $yellow-color: #F5E40E;
 $orange-color: #FD5334;
-$blue-color: #1A9DE7;
+$blue-color: #1544C0;
 $blue-sea-color: #50E3C2;
 $pink-color: #EA5771;
 $green-color: #039245;
 $red-color: #D22D36;
 $yellow2-color: #F2C94C;
-$blue2-color: #008FFF;
 $purple-color: #CCD6F6;
 $gray-color: #8892b0;
 $green-tint: rgba(100, 255, 218, 0.1);
+$blue-tint: rgba(30, 55, 248, 0.1);
 
 
 
@@ -150,25 +150,3 @@ $background-color-light: #FFFFFF;
 $complimentary-color-dark: #393B43;
 $complimentary-color-light: #FEFFFF;
 
-body {
-  background-color: $background-color-light;
-  color: #1544C0;
-
-  .skills-category-item {
-    color: $gray-color;
-  }
-}
-
-body.dark-mode {
-  background-color: $background-color-dark;
-  color: $purple-color;
-
-  .skills-category-item {
-    li {
-      color: $red-color
-    }
-  }
-
-
-
-}

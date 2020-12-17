@@ -1,3 +1,4 @@
+@import '../base/variables';
 
 .contact {
     max-width: 600px;
@@ -33,14 +34,16 @@
             padding: 20px;
 
             h2 {
-                color: $blue-sea-color;
+                @extend %selection-bg-yellow;
+                color: $black-color;
                 font-size: $font-size-h5;
                 font-weight: $font-weight-six;
                 font-family: $font-family-primary;
             }
 
             h3 {
-                color: $blue-sea-color;
+                @extend %selection-bg-yellow;
+                color: $black-color;
                 font-size: $font-size-h5;
                 font-weight: $font-weight-six;
                 font-family: $font-family-primary;
@@ -50,6 +53,7 @@
         }
 
         .title {
+            @extend %selection-bg-yellow;
             text-align:center;
             // color: $white-color;
             font-size: 60px;
@@ -62,6 +66,7 @@
         }
 
         p {
+            @extend %selection-bg-yellow;
             text-align:center;
             color: $gray-color;
             margin-top: 30px;
@@ -81,10 +86,11 @@
             text-align: center;
 
             a {
+                @extend %selection-bg-yellow;
                 border-radius: 5px;
-                border: 1px solid $blue-sea-color;
+                border: 1px solid $blue-color;
                 padding: 20px 28px;
-                color: $blue-sea-color;
+                color: $blue-color;
                 text-decoration: none;
                 background-color: transparent;
                 cursor: pointer;
@@ -94,7 +100,7 @@
                 &:hover,
                 &:focus,
                 &:active {
-                    background-color: $green-tint;
+                    background-color: $blue-tint;
                     outline: none;
                 }
                 

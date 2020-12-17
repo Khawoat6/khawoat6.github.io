@@ -1,0 +1,116 @@
+@import '../base/variables';
+
+.experience {
+    width: 100%;
+    height: auto;
+    max-width: $thirteen-inch;
+    margin: 0 auto;
+
+    .experience-wrapper {
+        padding: 100px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .experience-title {
+            padding: 0 20px;
+            display: flex;
+            flex-direction: row;
+
+            h2 {
+                @extend %selection-bg-yellow;
+                color: $black-color;
+                font-size: $font-size-h4;
+                font-weight: $font-weight-six;
+                font-family: $font-family-primary;
+                margin-right: 30px;
+                padding:8px 0;
+            }
+
+            h3 {
+                @extend %selection-bg-yellow;
+                font-size: $font-size-h3;
+                font-weight: $font-weight-secondary;
+                font-family: $font-family-secondary;
+            }
+        }
+
+        .experience-details {
+            padding: 0 20px;
+            // max-width: 960px;
+
+            .experience-details-wrapper {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .experience-item {
+                    // width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 0;
+                    margin-bottom: 10px;
+
+                    .experience-item-organization {
+                        padding: 0 30px 0 0;
+                        width: 80%;
+
+                        h1 {
+                            @extend %selection-bg-yellow;
+                            font-size: $font-size-h5;
+                            font-family: $font-family-primary;
+                            font-weight: $font-weight-primary;
+                            padding: 10px 0;
+                            letter-spacing: $letter-spacing-primary;
+                        }
+                        span {
+                            @extend %selection-bg-yellow;
+                            font-size: $font-size-h6;
+                            font-family: $font-family-primary;
+                            color: $primary-color;
+                            font-weight: $font-weight-secondary;
+                            opacity: 0.8;
+
+                        }
+                        ul {
+                            margin-left: 20px;
+                            padding: 10px 0;
+                            list-style: circle;
+                            li {
+                                @extend %selection-bg-yellow;
+                                list-style: circle;
+                                padding: 5px 0;
+                                font-size: $font-size-h6;
+                                font-family: $font-family-secondary;
+                                color: $gray-color;
+                                line-height: $line-height-16;
+                            }
+                        }
+                    }
+
+                    .experience-item-date {
+                        width: 20%;
+
+                        h3 {
+                            @extend %selection-bg-yellow;
+                            padding: 10px 0;
+                            font-size: $font-size-h6;
+                            font-family: $font-family-primary;
+                            color: $gray-color;
+                            // line-height: $line-height-16;
+                            text-align: right;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+
+    }
+
+}

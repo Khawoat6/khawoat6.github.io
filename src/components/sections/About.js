@@ -19,6 +19,7 @@ function About({ id }) {
               }}
             />
           </div>
+          <Fade bottom cascade>
           <div className="inner">
             <div className="inner-left">
               <div className="inner-left-top">
@@ -56,6 +57,7 @@ function About({ id }) {
                   Here are a few technologies I've been working with recently:
                 </p>
               </div>
+              <Fade bottom cascade>
               <div className="inner-left-bottom">
                 <li className="inner-left-bottom-skill">JavaScript (ES6)</li>
                 <li className="inner-left-bottom-skill">HTML5 + CSS3 (SCSS)</li>
@@ -66,6 +68,7 @@ function About({ id }) {
                 <li className="inner-left-bottom-skill">Python</li>
                 <li className="inner-left-bottom-skill">Wordpress</li>
               </div>
+              </Fade>
             </div>
             <div className="inner-right">
               <img
@@ -74,6 +77,7 @@ function About({ id }) {
               />
             </div>
           </div>
+          </Fade>
         </div>
       </div>
     </Fade>

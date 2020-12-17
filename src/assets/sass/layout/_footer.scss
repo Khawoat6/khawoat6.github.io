@@ -1,11 +1,11 @@
-
+@import '../base/variables';
 .footer {
+    @extend %selection-bg-yellow;
     position: absolute;
     bottom: 0;
     padding: 15px 5px;
     min-height: 70px;
     text-align: center;
-    width: 100%;
     
     .footer-wrapper {
 
@@ -19,7 +19,7 @@
             &:hover {
                 transform: translate(0, -3px);
                 transition-delay: 0.1s;
-                color: $blue-sea-color;
+                color: $blue-color;
             }
 
             @media (max-width: 768px) {
@@ -27,11 +27,11 @@
                 width: 100%;
                 max-width: 270px;
                 margin: 0 auto 10px;
-                color: $blue-sea-color;
+                color: $blue-color;
             }
 
-            div {
-
+            h4 {
+                @extend %selection-bg-yellow;
             }
 
             .github-stats {

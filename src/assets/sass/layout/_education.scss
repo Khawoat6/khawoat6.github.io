@@ -1,0 +1,116 @@
+@import '../base/variables';
+
+.education {
+    width: 100%;
+    height: auto;
+    max-width: $thirteen-inch;
+    margin: 0 auto;
+
+
+    .education-wrapper {
+        padding: 100px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .education-title {
+            display: flex;
+            font-size: $font-size-h3;
+            font-family: $font-family-secondary;
+            font-weight: $font-weight-primary;
+            // text-align: center;
+            padding: 20px 0;
+
+            h2 {
+                @extend %selection-bg-yellow;
+                color: $black-color;
+                font-size: $font-size-h4;
+                font-weight: $font-weight-six;
+                font-family: $font-family-primary;
+                margin-right: 30px;
+                padding:8px 0;
+            }
+    
+            h3 {
+                @extend %selection-bg-yellow;
+                font-size: $font-size-h3;
+                font-weight: $font-weight-secondary;
+                font-family: $font-family-secondary;
+            }
+        }
+
+        .education-detail {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            max-width: 1024px;
+            margin: 0 auto;
+
+            .education-detail-item {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 10px 20px 10px 40px;
+
+                .education-detail-left {
+                    padding: 10px 0;
+
+                    h1 {
+                        @extend %selection-bg-yellow;
+                        font-family: $font-family-primary;
+                        font-weight: $font-weight-primary;
+                        line-height: $line-height-26;
+                        font-size: $font-size-h4;
+                        margin-bottom: 10px;
+                        letter-spacing: $letter-spacing-primary;
+                        color: $blue-color;
+                    }
+                    span {
+                        @extend %selection-bg-yellow;
+                        width: 100%;
+                        color: $black-color;
+                        opacity: 0.8;
+                        font-style: italic;
+                        list-style: none;
+                        font-family: $font-family-primary;
+                        line-height: $line-height-26;
+                        font-size: $font-size-h6;
+                        font-weight: $font-weight-third;
+                    }
+                    li {
+                        @extend %selection-bg-yellow;
+                        width: 100%;
+                        color: $gray-color;
+                        list-style: circle;
+                        font-family: $font-family-secondary;
+                        line-height: $line-height-21;
+                        font-size: $font-size-h6;
+                        font-weight: $font-weight-six;
+                        letter-spacing: $letter-spacing-primary;
+                    }
+
+                }
+
+                .education-detail-right {
+                    padding: 15px 0;
+                    text-align: right;
+                    h3 {
+                        @extend %selection-bg-yellow;
+                        width: 100%;
+                        font-family: $font-family-primary;
+                        line-height: $line-height-18;
+                        font-size: $font-size-h6;
+                        font-weight: $font-weight-fifth;
+                        color: $gray-color;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

@@ -3,3 +3,368 @@
  *
  */
 
+@import '../base/variables';
+
+body {
+    background-color: $background-color-light;
+    color: #1544C0;
+  
+    .skills-category-item {
+      color: $gray-color;
+    }
+}
+  
+body.dark-mode {
+    background-color: $background-color-dark;
+    color: $purple-color;
+  
+    .skills-category-item {
+      li {
+        color: $red-color
+      }
+    }
+  
+    // ---------------------------- NAVBAR
+    .nav {
+        .nav-content {
+            .nav-logo {}
+            .nav-items {
+                .nav-item {
+                    span {
+                        color: $blue-sea-color;
+                    }
+                    strong {
+                        color: $white-color;
+                        font-weight: $font-weight-fifth;
+                    }
+                    &:hover {
+                        strong {
+                            color: $blue-sea-color;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            // Button Resume
+            .button {
+                a {
+                    border: 1px solid $blue-sea-color;
+                    color: $blue-sea-color;
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        background-color: $green-tint;
+                    }
+                    &:after {}
+                }
+            }
+        }
+    }
+    // ---------------------------- NAVBAR
+
+    // ---------------------------- SOCIAL
+    .social {
+        .social-wrapper {
+            .social-list {
+                a {
+                    svg {
+                        color: $gray-color;
+                    }
+                }
+                &:hover {
+                    a {
+                        svg {
+                            color: $blue-sea-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ---------------------------- SOCIAL
+
+
+    // ---------------------------- SIDE
+    .side {
+        .side-wrapper {
+            .mailto {
+                a {
+                    font-weight: $font-weight-fifth;
+                    color: $gray-color;
+                }
+                &:hover {
+                    a {
+                        transform: translate(-3px, 0);
+                        transition-delay: 0.1s;
+                        color: $blue-sea-color;
+                        font-weight: $font-weight-fifth;
+                    }
+                }
+            }
+            hr {}
+        }
+    }
+    // ---------------------------- SIDE
+
+    // ---------------------------- HERO
+    .hero {
+        .hero-row1 {
+            color: $blue-sea-color;
+        }
+        .hero-row2 {}
+        .hero-row3 {}
+        .hero-row4 {
+            color: $gray-color;
+        }
+        .hero-row5 {
+            a {
+                border: 1px solid $blue-sea-color;
+                color: $blue-sea-color;
+                
+                &:hover,
+                &:focus,
+                &:active {
+                    background-color: $green-tint;
+                    outline: none;
+                    cursor: pointer;
+                }
+    
+                &:after {
+                    display: none !important;
+                }
+            }
+        }
+    }
+    // ---------------------------- HERO
+
+    // ---------------------------- ABOUT
+    .about {
+        .about-wrapper {
+            .about-title {
+                h2 {
+                    color: $blue-sea-color;
+                }
+                h3 {}
+            }
+            .inner {
+                .inner-left {
+                    .inner-left-top {
+                        p {
+                            color: $gray-color;
+                            a {
+                                color: $blue-sea-color;
+                            }
+                        }
+                    }
+                    .inner-left-bottom {
+                        .inner-left-bottom-skill {
+                            color: $gray-color;
+                            &:before {
+                                color: $blue-sea-color;
+                            }
+                        }
+                    }
+                }
+                .inner-right {
+                    background-color: $blue-sea-color;
+                    img {
+                        border: 2px solid $blue-sea-color;
+                        &:hover {}
+                    }
+                    h1 {}
+                }
+            }
+        }
+    }
+
+    // ---------------------------- ABOUT
+
+    // ---------------------------- SKILLS
+    .skills {
+        .skills-title {
+            h2 {
+                color: $blue-sea-color;
+            }
+            h3 {}
+        }
+        .skills-more {
+            .skills-category-label {
+                .skills-category-title {
+                    color: $blue-sea-color;
+                }
+                .skills-category-item {
+                    color: $gray-color;
+                }
+            }
+        }
+
+    }
+    // ---------------------------- SKILLS
+
+    // ---------------------------- EDUCATION
+    .education {
+        .education-wrapper {
+            .education-title {
+                h2 {
+                    color: $blue-sea-color;
+                }
+                h3 {}
+            }
+            .education-detail {
+                .education-detail-item {
+                    .education-detail-left {
+                        h1 {
+                            color: $blue-sea-color;
+                        }
+                        span {
+                            color: $purple-color;
+                        }
+                        li {
+                            color: $gray-color;
+                        }
+                    }
+                    .education-detail-right {
+                        h3 {
+                            color: $gray-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ---------------------------- EDUCATION
+
+    // ---------------------------- EXPERIENCE
+    .experience {
+        .experience-wrapper {
+            .experience-title {
+                h2 {
+                    color: $blue-sea-color;
+                }
+                h3 {
+                    // color: $purple-color;
+                }
+            }
+            .experience-details {
+                .experience-details-wrapper {
+                    .experience-item {
+                        .experience-item-organization {
+                            h1 {
+                                color: $blue-sea-color;
+                            }
+                            span {
+                                color: $purple-color;
+                            }
+                            ul {
+                                li {
+                                    color: $gray-color;
+                                }
+                            }
+                        }
+                        .experience-item-date {
+                            h3 {
+                                color: $gray-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ---------------------------- EXPERIENCE
+
+    // ---------------------------- PROJECT
+    .project {
+        .feature-project {
+            .feature-project-wrapper {
+                .feature-project-title {
+                    h2 {
+                        color: $blue-sea-color;
+
+                    }
+                    h3 {}
+                }
+                .feature-project-details {
+                    .feature-project-details-item {
+                        .item-show {
+                            img {}
+                        }
+                        .item-content {
+                            h2 {
+                                color: $blue-sea-color;
+                            }
+                            h3 {}
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    // ---------------------------- PROJECT
+
+    // ---------------------------- CONTACT
+    .contact {
+        .contact-wrapper {
+            .numbered-heading {
+                h2 {
+                    color: $blue-sea-color;
+                }
+                h3 {
+                    color: $blue-sea-color;
+                }
+            }
+            .title {
+                // color: $white-color;
+            }
+            p {
+                color: $gray-color;
+            }
+            .button-say-hello {
+                a {
+                    border: 1px solid $blue-sea-color;
+                    color: $blue-sea-color;
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        background-color: $green-tint;
+                        outline: none;
+                    }
+                    
+                    &:after {
+                        display: none !important;
+                    }
+                }
+            }
+
+        }
+
+    }
+    // ---------------------------- CONTACT
+
+    // ---------------------------- FOOTER
+    .footer {
+        .footer-wrapper {
+            a {
+                color: $gray-color;
+                &:hover {
+                    transform: translate(0, -3px);
+                    transition-delay: 0.1s;
+                    color: $blue-sea-color;
+                }
+
+                .github-stats {
+
+                }
+            }
+
+        }
+
+    }
+    // ---------------------------- FOOTER
+}

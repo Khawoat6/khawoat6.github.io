@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 .hero {
     //max-width: 900px;
     @include transition;
@@ -12,38 +14,15 @@
     font-family: $font-family-primary;
     transition: inherit;
 
-    @include thirteen {
-        padding: 100px;
-    }
-
-    @include desktop {
-        padding: 50px;
-    }
-
-    @include tablet {
-        display: block;
-    }
-
-/*     @include mobile {
-        padding: 50px 35px;
-    } */
-
     .hero-row1 {
         font-size: $font-size-h5;
         font-weight: $font-weight-six;
-        // color: $blue-sea-color;
-        // color: #1544C0;
+        color: $black-color;
         padding: 10px 0;
         margin: 0 0 30px 4px;
 
         h1 {
-            &::selection {
-                background-color: $blue-sea-color;
-            }
-        }
-
-        @media (max-width: 480px) {
-            margin: 0 0 20px 2px;
+            @extend %selection-bg-yellow;
         }
     }
 
@@ -51,17 +30,13 @@
         font-size: $font-size-h1;
         font-family: $font-family-fourth;
         font-weight: $font-weight-primary;
-        // color: $purple-color;
-        // color: #1544C0;
         line-height: $line-height-88;
         letter-spacing: $letter-spacing-primary;
         transition-delay: 250ms;
         transition-property: margin-right;
 
         h1 {
-            &::selection {
-                background-color: $blue-sea-color;
-            }
+            @extend %selection-bg-yellow;
         }
     }
     
@@ -69,8 +44,6 @@
         font-size: $font-size-h1;
         font-family: $font-family-fourth;
         font-weight: $font-weight-primary;
-        // color: $purple-color;
-        // color: #1544C0;
         line-height: $line-height-88;
         margin-top: 5px;
         letter-spacing: $letter-spacing-primary;
@@ -78,9 +51,7 @@
         transition-property: margin-right;
 
         h1 {
-            &::selection {
-                background-color: $blue-sea-color;
-            }
+            @extend %selection-bg-yellow;
         }
     }
 
@@ -93,12 +64,10 @@
         font-weight: $font-weight-six;
         letter-spacing: $letter-spacing-primary;
         line-height: $line-height-26;
-        color: $gray-color;
+        color: $secondary-color;
 
         h1 {
-            &::selection {
-                background-color: $blue-sea-color;
-            }
+            @extend %selection-bg-yellow;
         }
 
     }
@@ -107,12 +76,13 @@
         padding-top: 80px;
 
         a {
+            @extend %selection-bg-yellow;
             background-color: transparent;
             padding: 20px 28px;
             margin-top: 150px;
-            border: 1px solid $blue-sea-color;
+            border: 1px solid $blue-color;
             border-radius: 5px;
-            color: $blue-sea-color;
+            color: $blue-color;
             font-family: $font-family-primary;
             font-weight: $font-weight-six;
             text-decoration: none;
@@ -120,7 +90,7 @@
             &:hover,
             &:focus,
             &:active {
-                background-color: $green-tint;
+                background-color: $blue-tint;
                 outline: none;
                 cursor: pointer;
             }

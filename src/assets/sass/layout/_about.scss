@@ -1,36 +1,12 @@
-
+@import '../base/variables';
 
 .about {
-    // display:flex;
-    max-width: 900px;
-    // min-height: 90vh;
-    // justify-content: center;
-    // align-items: center;
+    max-width: $desktop-width;
     padding: 100px 0;
 
-  /*   @include thirteen {
-        padding: 100px;
-    }
-
-    @include desktop {
-        padding: 50px;
-    }
-
-    @include tablet {
-        display: block;
-    }
-
-    @include mobile {
-        padding: 50px 35px;
-    }
- */
     .about-wrapper {
-        // width: 100%;
         display: flex;
         flex-direction: column;
-
-        
-
 
         .about-title {
             width: 100%;
@@ -40,13 +16,15 @@
             align-items: flex-end;
 
             h2 {
-                color: $blue-sea-color;
+                @extend %selection-bg-yellow;
+                color: $black-color;
                 font-size: $font-size-h4;
                 font-weight: $font-weight-six;
                 font-family: $font-family-primary;
             }
 
             h3 {
+                @extend %selection-bg-yellow;
                 // color: $purple-color;
                 font-size: $font-size-h3;
                 font-weight: $font-weight-secondary;
@@ -85,7 +63,8 @@
                 .inner-left-top {
 
                     p {
-                        color: $gray-color;
+                        @extend %selection-bg-yellow;
+                        color: $secondary-color;
                         margin-top: 15px;
                         font-size: $font-size-h5;
                         font-family: $font-family-secondary;
@@ -97,8 +76,10 @@
                         }
 
                         a {
-                            color: $blue-sea-color;
+                            @extend %selection-bg-yellow;
+                            color: $blue-color;
                             text-decoration: none;
+                            font-weight: $font-weight-fourth;
                         }
                     }
                 }
@@ -110,6 +91,7 @@
                     margin-top: 35px;
 
                     .inner-left-bottom-skill {
+                        @extend %selection-bg-yellow;
                         width: 50%;
                         color: $gray-color;
                         list-style: none;
@@ -126,7 +108,7 @@
                             // content: "\00BB";
                             // content: "\00BB \0020";
                             margin-right: 10px;
-                            color: $blue-sea-color;
+                            color: $blue-color;
                         }
                     }
                 }
@@ -139,14 +121,15 @@
                 height: 300px;
                 border-radius: 50%;
                 overflow: hidden;
-                background-color: $blue-sea-color;
+                background-color: $blue-color;
                 vertical-align:middle;
                 
 
                 img {
+                    @extend %selection-bg-yellow;
                     width: 100%;
                     height: 100%;
-                    border: 2px solid $blue-sea-color;
+                    border: 3px solid $blue-color;
                     border-radius: 50%;
                     filter: grayscale(100%);
 

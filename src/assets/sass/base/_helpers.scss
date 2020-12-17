@@ -2,3 +2,12 @@
  * Helpers file
  *
  */
+
+ @import '../base/variables';
+
+%selection-bg-yellow {
+    &::selection {
+        background-color: $yellow-color;
+        color: $black-color;
+    }
+}
