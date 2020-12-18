@@ -15,8 +15,8 @@ function Project({ id }) {
             <h2>0.5</h2>
             <h3>Feature Project</h3>
           </div>
-          <Fade right cascade>
           <div className="feature-project-details">
+          <Fade right cascade>
           
             <div className="feature-project-details-item">
               <div className="item-show">
@@ -61,6 +61,10 @@ function Project({ id }) {
                 </div>
               </div>
             </div>
+
+            </Fade>
+
+            <Fade right cascade>
             <div className="feature-project-details-item">
               <div className="item-show">
                 <img src="https://i.ibb.co/KWXXtwz/Screen-Shot-2563-12-18-at-03-28-48-removebg-preview.png" alt=""/>
@@ -105,6 +109,9 @@ function Project({ id }) {
 
               </div>
             </div>
+            </Fade>
+
+            <Fade right cascade>
             <div className="feature-project-details-item">
               <div className="item-show">
                 <img src="https://i.ibb.co/H4rYvxs/smartmockups-kitb5rkv.png" alt=""/>
@@ -148,9 +155,9 @@ function Project({ id }) {
 
               </div>
             </div>
+            </Fade>
 
           </div>
-          </Fade>
         </div>
 
       </div>
