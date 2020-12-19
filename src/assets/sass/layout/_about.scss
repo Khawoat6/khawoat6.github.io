@@ -42,23 +42,8 @@
             padding: 20px;
             margin-top: 5px;
 
-
-            @media (max-width: 768px) {
-                display: flex;
-                flex-direction: column;
-            }
-
-            @media (max-width: 768px) {
-                display: flex;
-                flex-direction: column;
-            }
-
             .inner-left {
                 width: 65%;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 30px;
-                }
 
                 .inner-left-top {
 
@@ -70,10 +55,6 @@
                         font-family: $font-family-secondary;
                         font-weight: $font-weight-six;
                         line-height: $line-height-26;
-
-                        @media (max-width: 414px) {
-                            font-size: 16px;
-                        }
 
                         a {
                             @extend %selection-bg-yellow;
@@ -112,7 +93,6 @@
                         }
                     }
                 }
-
             }
 
             .inner-right {
@@ -122,8 +102,7 @@
                 border-radius: 50%;
                 overflow: hidden;
                 background-color: $blue-color;
-                vertical-align:middle;
-                
+                vertical-align:middle;       
 
                 img {
                     @extend %selection-bg-yellow;
@@ -137,15 +116,8 @@
                         filter: none;
                     }
                 }
-
-                h1 {
-
-                }
-
+                h1 {}
             }
-
         }
-
-
     }
 }

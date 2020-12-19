@@ -7,7 +7,7 @@ function Education() {
             <section className="education">
                 <div className="education-wrapper">
                     <div className="education-title">
-                        <h2>2.0</h2>
+                        <h2>02.</h2>
                         <h3>Education</h3>
                     </div>
                     <Fade right cascade>

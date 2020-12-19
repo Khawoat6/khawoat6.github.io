@@ -7,7 +7,7 @@ function Experience({id}) {
             <section className="experience" id={id}>
                 <div className="experience-wrapper">
                     <div className="experience-title">
-                        <h2>3.0</h2>
+                        <h2>03.</h2>
                         <h3>Experience</h3>
                     </div>
                     <div className="experience-details">

@@ -293,17 +293,37 @@ body.dark-mode {
                             h2 {
                                 color: $blue-sea-color;
                             }
+                            .stack {
+                                button {
+                                    border: 1px solid $white-color;
+                                    color: $white-color;
+                                    opacity: 0.8;
+                                }
+                            }
                             h3 {}
+                            .item-social {
+                                .item-social-wrapper {
+                                    .item-social-list {
+                                        a {
+                                            svg {
+
+                                            }
+                                        }
+                                        &:hover {
+                                            a {
+                                                svg {
+                                                    color: $blue-sea-color;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
-
                     }
-
                 }
-
             }
-
         }
-
     }
 
     // ---------------------------- PROJECT

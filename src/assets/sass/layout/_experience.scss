@@ -37,7 +37,6 @@
 
         .experience-details {
             padding: 0 20px;
-            // max-width: 960px;
 
             .experience-details-wrapper {
                 width: 100%;
@@ -45,7 +44,6 @@
                 flex-direction: column;
 
                 .experience-item {
-                    // width: 100%;
                     display: flex;
                     flex-direction: row;
                     padding: 0;
@@ -83,7 +81,9 @@
                                 font-size: $font-size-h6;
                                 font-family: $font-family-secondary;
                                 color: $gray-color;
-                                line-height: $line-height-16;
+                                line-height: $line-height-21;
+                                font-weight: $font-weight-six;
+                                letter-spacing: $letter-spacing-primary;
                             }
                         }
                     }
@@ -93,24 +93,17 @@
 
                         h3 {
                             @extend %selection-bg-yellow;
-                            padding: 10px 0;
+                            // padding: 10px 0;
                             font-size: $font-size-h6;
+                            line-height: $line-height-18;
                             font-family: $font-family-primary;
                             color: $gray-color;
-                            // line-height: $line-height-16;
                             text-align: right;
-
+                            font-weight: $font-weight-six;
                         }
-
                     }
-
                 }
-
             }
-
         }
-
-
     }
-
 }

@@ -1,0 +1,817 @@
+@import '../base/variables';
+
+
+//  // ======================================================   start max-width 1440px
+@include fifteen-inch {
+    // ================================ NAV ================================
+    .nav {
+        .nav-content {
+            padding: 50px 50px;
+            .nav-logo {
+            }
+            .nav-items {
+                .nav-item {
+                    span {}
+                    strong {}
+                }
+            }
+        }
+    }
+    // ================================ NAV ================================
+    // ================================ HERO ================================
+    .hero {
+        max-width: 960px;
+        .hero-row1 {
+            h1 {}
+        }
+        .hero-row2 {
+            h1 {}
+        }
+        .hero-row3 {
+            h1 {}
+        }
+        .hero-row4 {
+            h1 {}
+        }
+        .hero-row5 {
+            a {}
+        }
+    }
+    // ================================ HERO ================================
+    // ================================ ABOUT ================================
+    .about {
+        .about-wrapper {
+            .about-title {
+                h2 {}
+                h3 {}
+            }
+            .inner {
+                .inner-left {
+                    .inner-left-top {
+                        p {
+                            a {}
+                        }
+                    }
+                    .inner-left-bottom {
+                        .inner-left-bottom-skill {
+                        }
+                    }
+                }
+                .inner-right {
+                    img {
+
+                    }
+                }
+            }
+        }
+    }
+    // ================================ ABOUT ================================
+    // ================================ EDUCATION ================================
+    .education {
+        .education-wrapper {
+            padding: 100px 0;
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .education-title {
+                h2 {}
+                h3 {}
+            }
+            .education-detail {
+                .education-detail-item {
+                    padding: 10px 20px 10px 70px;
+
+                    .education-detail-left {
+                        h1 {}
+                        span {}
+                        li {}
+                    }
+                    .education-detail-right {
+                        h3 {}
+                    }
+                }
+            }
+        }
+    }
+    // ================================ EDUCATION ================================
+    // ================================ EXPERIENCE ================================
+    .experience {
+        .experience-wrapper {
+            padding: 200px 0;
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            .experience-title {
+                padding: 0;
+                margin-bottom: 20px;
+                h2 {}
+                h3 {}
+            }
+            .experience-details {
+                padding: 0 20px 0 70px;
+                .experience-details-wrapper {
+                    .experience-item {
+                        .experience-item-organization {
+                            h1 {}
+                            span {}
+                            ul {
+                                li {}
+                            }
+                        }
+                        .experience-item-date {
+                            h3 {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ EXPERIENCE ================================
+    // ================================ SKILLS ================================
+    .skills {
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        .skills-title {
+            padding: 0;
+            margin-bottom: 30px;
+            h2 {}
+            h3 {}
+        }
+        .skills-more {
+            padding-left: 30px;
+            .skills-category-label {
+                .skills-category-title {}
+                .skills-category-item {}
+            }
+        }
+    }
+    // ================================ SKILLS ================================
+    // ================================ FEATURE PROJECT ================================
+    .project {
+        max-width: 960px;
+        margin: 0 auto;
+        .feature-project {
+            .feature-project-wrapper {
+                display: flex;
+                flex-direction: column;
+
+                .feature-project-title {
+                    padding: 0;
+                    margin-bottom: 50px;
+                    h2 {}
+                    h3 {}
+                }
+                .feature-project-details {
+                    .feature-project-details-item {
+                        .item-show {
+                            img {}
+                        }
+                        .item-content {
+                            h2 {}
+                            .stack {
+                                button {}
+                            }
+                            h3 {}
+                            .item-social {
+                                .item-social-wrapper {
+                                    .item-social-list {
+                                        a {
+                                            svg {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ FEATURE PROJECT ================================
+    // ================================ CONTACT ================================
+    .contact {
+        .contact-wrapper {
+            .numbered-heading {
+                h2 {}
+                h3 {}
+            }
+            .title {}
+            p {}
+            .button-say-hello {
+                a {}
+            }
+        }
+    }
+    // ================================ CONTACT ================================
+    // ================================ FOOTER ================================ 
+    .footer {
+        .footer-wrapper {
+            a {
+                h4 {}
+            }
+            .github-stats {
+                svg {}
+            }
+        }
+    }
+    // ================================ FOOTER ================================
+}
+//  // ======================================================   end max-width 1440px
+
+
+//  // ======================================================   start max-width 1280px
+@include thirteen {
+    // ================================ NAV ================================
+    .nav {
+        .nav-content {
+            padding: 40px 30px;
+            .nav-logo {
+            }
+            .nav-items {
+                font-size: $font-size-h7;
+                .nav-item {
+                    margin-left: 1rem;
+                    span {}
+                    strong {}
+                }
+            }
+        }
+    }
+    // ================================ NAV ================================
+    // ================================ HERO ================================
+    .hero {
+        max-width: 800px;
+        .hero-row1 {
+            h1 {}
+        }
+        .hero-row2 {
+            h1 {}
+        }
+        .hero-row3 {
+            h1 {}
+        }
+        .hero-row4 {
+            h1 {}
+        }
+        .hero-row5 {
+            a {}
+        }
+    }
+    // ================================ HERO ================================
+    // ================================ ABOUT ================================
+    .about {
+        max-width: 800px;
+        .about-wrapper {
+            .about-title {
+                h2 {}
+                h3 {}
+            }
+            .inner {
+                .inner-left {
+                    padding-right: 30px;
+                    .inner-left-top {
+                        p {
+                            font-size: $font-size-h6;
+                            a {}
+                        }
+                    }
+                    .inner-left-bottom {
+                        .inner-left-bottom-skill {
+                        }
+                    }
+                }
+                .inner-right {
+                    img {
+
+                    }
+                }
+            }
+        }
+    }
+    // ================================ ABOUT ================================
+    // ================================ EDUCATION ================================
+    .education {
+        .education-wrapper {
+            padding: 100px 0;
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .education-title {
+                h2 {}
+                h3 {}
+            }
+            .education-detail {
+                .education-detail-item {
+                    padding: 10px 20px 10px 70px;
+
+                    .education-detail-left {
+                        h1 {}
+                        span {}
+                        li {
+                            font-size: $font-size-h8;
+                        }
+                    }
+                    .education-detail-right {
+                        h3 {
+                            font-size: $font-size-h8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ EDUCATION ================================
+    // ================================ EXPERIENCE ================================
+    .experience {
+        .experience-wrapper {
+            padding: 100px 0;
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            .experience-title {
+                padding: 0;
+                margin-bottom: 20px;
+                h2 {}
+                h3 {}
+            }
+            .experience-details {
+                padding: 0 20px 0 70px;
+                .experience-details-wrapper {
+                    .experience-item {
+                        .experience-item-organization {
+                            h1 {}
+                            span {}
+                            ul {
+                                li {
+                                    font-size: $font-size-h8;
+                                }
+                            }
+                        }
+                        .experience-item-date {
+                            h3 {
+                                font-size: $font-size-h8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ EXPERIENCE ================================
+    // ================================ SKILLS ================================
+    .skills {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        .skills-title {
+            padding: 0;
+            margin-bottom: 30px;
+            h2 {}
+            h3 {}
+        }
+        .skills-more {
+            padding-top: 30px;
+            padding-left: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+            .skills-category-label {
+                padding: 0 10px;
+                .skills-category-title {
+                }
+                .skills-category-item {
+                    font-size: $font-size-h8;
+                    line-height: $line-height-24;
+                }
+            }
+        }
+    }
+    // ================================ SKILLS ================================
+    // ================================ FEATURE PROJECT ================================
+    .project {
+        max-width: 800px;
+        margin: 0 auto;
+        .feature-project {
+            .feature-project-wrapper {
+                display: flex;
+                flex-direction: column;
+
+                .feature-project-title {
+                    padding: 0;
+                    margin-bottom: 50px;
+                    h2 {}
+                    h3 {}
+                }
+                .feature-project-details {
+                    .feature-project-details-item {
+                        .item-show {
+                            img {}
+                        }
+                        .item-content {
+                            h2 {}
+                            .stack {
+                                button {
+                                    font-size: $font-size-h9;
+                                }
+                            }
+                            h3 {
+                                font-size: $font-size-h8;
+                                letter-spacing: 1px;
+                            }
+                            .item-social {
+                                .item-social-wrapper {
+                                    .item-social-list {
+                                        a {
+                                            svg {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ FEATURE PROJECT ================================
+    // ================================ CONTACT ================================
+    .contact {
+        max-width: 500px;
+        .contact-wrapper {
+            .numbered-heading {
+                h2 {}
+                h3 {}
+            }
+            .title {}
+            p {
+                font-size: $font-size-h6;
+                letter-spacing: 1px;
+            }
+            .button-say-hello {
+                a {
+                    padding: 16px 24px;
+                }
+            }
+        }
+    }
+    // ================================ CONTACT ================================
+    // ================================ FOOTER ================================ 
+    .footer {
+        .footer-wrapper {
+            a {
+                h4 {}
+            }
+            .github-stats {
+                svg {}
+            }
+        }
+    }
+    // ================================ FOOTER ================================
+}
+//  // ======================================================   end max-width 1280px
+
+
+//  // ======================================================   start max-width 1024px
+@include desktop {
+    // ================================ NAV ================================
+    .nav {
+        .nav-content {
+            padding: 40px 30px;
+            .nav-logo {
+            }
+            .nav-items {
+                font-size: $font-size-h7;
+                .nav-item {
+                    &:nth-child(1),
+                    &:nth-child(2),
+                    &:nth-child(3),
+                    &:nth-child(4),
+                    &:nth-child(5),
+                    &:nth-child(6) {
+                        display: none;
+                    }
+                    margin-left: 1rem;
+                    span {}
+                    strong {}
+                }
+            }
+        }
+    }
+    // ================================ NAV ================================
+    // ================================ HERO ================================
+    .hero {
+        max-width: 580px;
+        .hero-row1 {
+            h1 {}
+        }
+        .hero-row2 {
+            h1 {}
+        }
+        .hero-row3 {
+            h1 {}
+        }
+        .hero-row4 {
+            h1 {}
+        }
+        .hero-row5 {
+            a {
+                padding: 16px 24px;
+            }
+        }
+    }
+    // ================================ HERO ================================
+    // ================================ ABOUT ================================
+    .about {
+        max-width: 600px;
+        .about-wrapper {
+            .about-title {
+                h2 {}
+                h3 {}
+            }
+            .inner {
+                display: flex;
+                flex-direction: column;
+                .inner-left {
+                    width: 100%;
+                    padding-right: 0;
+                    margin-bottom: 60px;
+                    .inner-left-top {
+                        p {
+                            font-size: $font-size-h6;
+                            letter-spacing: $letter-spacing-primary;
+                            a {}
+                        }
+                    }
+                    .inner-left-bottom {
+                        .inner-left-bottom-skill {
+                        }
+                    }
+                }
+                .inner-right {
+                    img {}
+                }
+            }
+        }
+    }
+    // ================================ ABOUT ================================
+    // ================================ EDUCATION ================================
+    .education {
+        .education-wrapper {
+            padding: 100px 0;
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .education-title {
+                h2 {}
+                h3 {}
+            }
+            .education-detail {
+                .education-detail-item {
+                    padding: 10px 0;
+
+                    .education-detail-left {
+                        h1 {}
+                        span {}
+                        li {
+                            font-size: $font-size-h8;
+                        }
+                    }
+                    .education-detail-right {
+                        h3 {
+                            font-size: $font-size-h8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ EDUCATION ================================
+    // ================================ EXPERIENCE ================================
+    .experience {
+        .experience-wrapper {
+            padding: 100px 0;
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            .experience-title {
+                padding: 0;
+                margin-bottom: 20px;
+                h2 {}
+                h3 {}
+            }
+            .experience-details {
+                padding: 10px 0;
+                .experience-details-wrapper {
+                    .experience-item {
+                        .experience-item-organization {
+                            h1 {}
+                            span {}
+                            ul {
+                                li {
+                                    font-size: $font-size-h8;
+                                }
+                            }
+                        }
+                        .experience-item-date {
+                            h3 {
+                                font-size: $font-size-h8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ EXPERIENCE ================================
+    // ================================ SKILLS ================================
+    .skills {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        .skills-title {
+            padding: 0;
+            margin-bottom: 30px;
+            h2 {}
+            h3 {}
+        }
+        .skills-more {
+            padding-top: 30px;
+            padding-left: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .skills-category-label {
+                padding: 0 10px;
+                margin-bottom: 40px;
+                .skills-category-title {
+                }
+                .skills-category-item {
+                    font-size: $font-size-h8;
+                    line-height: $line-height-24;
+                }
+            }
+        }
+    }
+    // ================================ SKILLS ================================
+    // ================================ FEATURE PROJECT ================================
+    .project {
+        padding: 100px 0 50px 0;
+        max-width: 600px;
+        margin: 0 auto;
+        .feature-project {
+            .feature-project-wrapper {
+                display: flex;
+                flex-direction: column;
+
+                .feature-project-title {
+                    padding: 0;
+                    margin-bottom: 50px;
+                    h2 {}
+                    h3 {}
+                }
+                .feature-project-details {
+                    .feature-project-details-item {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .item-show {
+                            img {
+                                width: 420px;
+                            }
+                        }
+                        .item-content {
+                            padding: 30px 0;
+                            h2 {
+                                text-align: center;
+                            }
+                            .stack {
+                                justify-content: center;
+                                button {
+                                    font-size: $font-size-h9;
+                                }
+                            }
+                            h3 {
+                                font-size: $font-size-h8;
+                                letter-spacing: 1px;
+                                text-align: center;
+                            }
+                            .item-social {
+                                .item-social-wrapper {
+                                    display: flex;
+                                    justify-content: center;
+                                    .item-social-list {
+                                        a {
+                                            svg {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ FEATURE PROJECT ================================
+    // ================================ CONTACT ================================
+    .contact {
+        padding: 100px 0;
+        max-width: 500px;
+        margin-bottom: 100px;
+        .contact-wrapper {
+            .numbered-heading {
+                h2 {}
+                h3 {}
+            }
+            .title {}
+            p {
+                font-size: $font-size-h8;
+                letter-spacing: 1px;
+            }
+            .button-say-hello {
+                a {
+                    padding: 14px 22px;
+                }
+            }
+        }
+    }
+    // ================================ CONTACT ================================
+    // ================================ FOOTER ================================ 
+    .footer {
+        .footer-wrapper {
+            a {
+                font-size: $font-size-h8;
+                h4 {}
+            }
+            .github-stats {
+                svg {}
+            }
+        }
+    }
+    // ================================ FOOTER ================================
+}
+
+
+
+
+
+//  // ======================================================   end max-width 1024px
+
+
+// max-width 850px
+@include little-desktop {
+
+}
+
+// max-width 768px
+@include tablet {
+
+}
+
+// max-width 630px
+@include weird-medium {
+
+}
+
+// max-width 550px
+@include phablet {
+
+}
+
+// max-width 480px
+@include mobile {
+
+}
+
+// max-width 360px
+@include small-mobile {
+
+}
+
+// max-width 330px
+@include tiny-mobile {
+
+}

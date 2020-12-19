@@ -9,7 +9,6 @@
     flex-direction: column;
     justify-content: center;
     font-weight: 1000;
-    // color: $white-color;
     padding: 100px 0;
     font-family: $font-family-primary;
     transition: inherit;
@@ -69,7 +68,6 @@
         h1 {
             @extend %selection-bg-yellow;
         }
-
     }
 
     .hero-row5 {

@@ -22,6 +22,12 @@ $tiny-mobile-width: 330px;
   transition: all 0.2s ease-in-out;
 }
 
+@mixin fifteen-inch {
+  @media screen and (max-width: #{$fifteen-inch}) {
+    @content;
+  }
+}
+
 @mixin thirteen {
   @media screen and (max-width: #{$thirteen-inch}) {
     @content;

@@ -9,15 +9,6 @@ function About({ id }) {
           <div className="about-title">
             <h2>01.</h2>
             <h3>About Me</h3>
-            <hr
-              style={{
-                color: '#8892b0',
-                backgroundColor: '#8892b0',
-                height: 0.01,
-                borderColor: '#8892b0',
-                // width: 500,
-              }}
-            />
           </div>
           <Fade bottom cascade>
           <div className="inner">

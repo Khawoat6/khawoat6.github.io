@@ -17,14 +17,6 @@
   filter: none !important;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 
-  @media (max-width: 1080px) {
-    padding: 0 40px;
-  }
-  @media (max-width: 768px) {
-    padding: 0 25px;
-  }
-
-
   .nav-content {
 
     //max-width: 900px;

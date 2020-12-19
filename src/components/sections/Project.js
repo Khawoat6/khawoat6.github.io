@@ -12,7 +12,7 @@ function Project({ id }) {
       <div className="feature-project">
         <div className="feature-project-wrapper">
           <div className="feature-project-title">
-            <h2>0.5</h2>
+            <h2>05.</h2>
             <h3>Feature Project</h3>
           </div>
           <div className="feature-project-details">

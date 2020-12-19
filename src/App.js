@@ -19,7 +19,8 @@ import Social from './components/Social';
 // IMPORT STYLE
 import './assets/sass/_main.scss';
 
-import { Scale } from 'styled-loaders-react';
+// import { Scale } from 'styled-loaders-react';
+import img from './assets/images/loading16.gif';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 // import { SidebarData } from './components/SidebarData';
@@ -29,7 +30,7 @@ import Skills from '../src/components/sections/Skills';
 
 const asyncFunc = () => {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(false), 4000);
+    setTimeout(() => resolve(false), 3000);
   });
 };
 class App extends React.Component {
@@ -53,7 +54,8 @@ class App extends React.Component {
       <div className="App">
         {this.state.isLoaded ? (
           <div className="loading">
-            <Scale color="#1544C0" size="60px" duration="1.4s" />
+            {/* <Scale color="#1544C0" size="60px" duration="1.4s" /> */}
+            <img src={img} alt=""/>
           </div>
         ) : (
           <Router>

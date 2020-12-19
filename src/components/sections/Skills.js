@@ -6,7 +6,7 @@ function Skills({ id }) {
     <Fade bottom cascade>
       <section className="skills" id={id}>
         <div className="skills-title">
-          <h2>4.0</h2>
+          <h2>04.</h2>
           <h3>Skills</h3>
         </div>
         <Fade bottom cascade>

@@ -32,49 +32,25 @@
             font-weight: $font-weight-secondary;
             font-family: $font-family-secondary;
         }
-
-        @media (min-width: 768px) {
-            margin-bottom: 30px;
-        }
-
-        @media (min-width: 375px) {
-            margin-bottom: 30px;
-        }
-    }
-
-    @include thirteen {
-        padding: 100px;
-    }
-
-    @include desktop {
-        padding: 50px;
-    }
-
-    @include tablet {
-        display: block;
-    }
-
-    @include mobile {
-        padding: 50px 35px;
     }
 
     .skills-more {
         display: flex;
         flex-direction: row;
 
-        @media (max-width: 900px) {
-            padding: 0 25px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
+        // @media (max-width: 900px) {
+        //     padding: 0 25px;
+        //     display: grid;
+        //     grid-template-columns: 1fr 1fr;
+        // }
 
         .skills-category-label {
             list-style: none;
             padding: 0 40px;
 
-            @media (min-width: 375px) {
-                margin-bottom: 30px;
-            }
+            // @media (min-width: 375px) {
+            //     margin-bottom: 30px;
+            // }
 
             .skills-category-title {
                 @extend %selection-bg-yellow;

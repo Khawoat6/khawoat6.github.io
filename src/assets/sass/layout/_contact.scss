@@ -2,25 +2,9 @@
 
 .contact {
     max-width: 600px;
-    min-height: 80vh;
+    // min-height: 80vh;
     width:100%;
-    padding: 100px 0;
-
-    @include thirteen {
-        padding: 100px;
-    }
-
-    @include desktop {
-        padding: 50px;
-    }
-
-    @include tablet {
-        display: block;
-    }
-
-    @include mobile {
-        padding: 50px 35px;
-    }
+    padding: 100px 0 200px 0;
 
     .contact-wrapper {
         display: flex;
@@ -59,10 +43,6 @@
             font-size: 60px;
             font-family: $font-family-secondary;
             font-weight: $font-weight-secondary;
-
-            @media (max-width: 414px) {
-                font-size: $font-size-h2;
-            }
         }
 
         p {
@@ -74,10 +54,6 @@
             font-family: $font-family-secondary;
             font-weight: $font-weight-six;
             line-height: $line-height-26;
-
-            @media (max-width: 414px) {
-                font-size: 14px;
-            }
         }
 
         .button-say-hello {
