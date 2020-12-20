@@ -31,6 +31,11 @@
     .nav-logo {
       height: 50px;
       width: 50px;
+      @extend %selection-bg-yellow;
+
+      img {
+        @extend %selection-bg-yellow;
+      }
 
       &:hover {
           cursor: pointer;
@@ -55,6 +60,7 @@
 
             span {
               color: $black-color;
+              @extend %selection-bg-yellow;
             }
 
             strong {

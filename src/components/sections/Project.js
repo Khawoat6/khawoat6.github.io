@@ -50,7 +50,7 @@ function Project({ id }) {
                     </div>
                     <div className="item-social-list">
                       <a
-                        href="https://github.com/Khawoat6"
+                        href="http://174.138.22.85:3000/"
                         target="_blank"
                         rel="noreferrer"
                       >

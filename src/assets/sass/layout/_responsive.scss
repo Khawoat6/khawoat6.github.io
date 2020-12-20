@@ -1896,15 +1896,468 @@
 // ======================================================   end max-width 550px
 
 
-// max-width 480px
+// ======================================================   start max-width 480px
 @include mobile {
+    // ================================ NAV ================================
+    .nav {
+        height: 70px;
+        .nav-content {
+            padding:20px;
+            .nav-logo {
+                width: 45px;
+                height: 45px;
+            }
+            .nav-items {
+                font-size: $font-size-h7;
+                .nav-item {
+                    &:nth-child(1),
+                    &:nth-child(2),
+                    &:nth-child(3),
+                    &:nth-child(4),
+                    &:nth-child(5),
+                    &:nth-child(6) {
+                        display: none;
+                    }
+                    margin-left: 1rem;
+                    span {}
+                    strong {}
+                }
+                .button {
+                    a {
+                        font-size: $font-size-h8;
+                        padding: 8px 12px;
+                        
+                    }
+                }
+            }
+        }
+    }
+    // ================================ NAV ================================
+    // ================================ SOCIAL ================================
+    .App {
+        .social {
+            display: none;
+            .social-wrapper {
+                display: none;
+                .social-list {
+                    display: none;
+                    a {}
+                    hr {}
+                }
+            }
+        }
+        .side {
+            display: none;
+            .side-wrapper {
+                .mailto {
+                    a {}
+                }
+                hr {}
+            }
+        }
+    }
+    // ================================ SOCIAL ================================
+    // ================================ HERO ================================
+    .hero {
+        max-width: 300px;
+        .hero-row1 {
+            font-size: $font-size-h6;
+            h1 {}
+        }
+        .hero-row2 {
+            font-size: 40px;
+            line-height: 50px;
+            h1 {
+            }
+        }
+        .hero-row3 {
+            font-size: 40px;
+            line-height: 50px;
+            h1 {
+            }
+        }
+        .hero-row4 {
+            font-size: $font-size-h7;
+            line-height: $line-height-23;
+            max-width: 420px;
+            h1 {}
+        }
+        .hero-row5 {
+            a {
+                padding: 17px 15px;
+            }
+        }
+    }
+    // ================================ HERO ================================
+    // ================================ ABOUT ================================
+    .about {
+        max-width:  320px;
+        padding: 80px 0px;
+        .about-wrapper {
+            .about-title {
+                h2 {}
+                h3 {}
+            }
+            .inner {
+                display: flex;
+                flex-direction: column;
+                .inner-left {
+                    width: 100%;
+                    padding-right: 0;
+                    margin-bottom: 60px;
+                    .inner-left-top {
+                        p {
+                            font-size: $font-size-h7;
+                            letter-spacing: $letter-spacing-primary;
+                            line-height: $line-height-21;
+                            a {}
+                        }
+                    }
+                    .inner-left-bottom {
+                        .inner-left-bottom-skill {
+                            font-size: 11px;
+                        }
+                    }
+                }
+                .inner-right {
+                    width: 250px;
+                    height: 250px;
+                    img {}
+                }
+            }
+        }
+    }
+    // ================================ ABOUT ================================
+    // ================================ EDUCATION ================================
+    .education {
+        .education-wrapper {
+            max-width: 320px;
+            padding: 80px 10px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
+            .education-title {
+                h2 {}
+                h3 {}
+            }
+            .education-detail {
+                .education-detail-item {
+                    margin-bottom: 30px;
+                    padding: 10px 0;
+                    justify-content: end;
+                    flex-direction: column-reverse;
+
+                    .education-detail-left {
+                        h1 {}
+                        span {}
+                        li {
+                            font-size: 11px;
+                        }
+                    }
+                    .education-detail-right {
+                        text-align: left;
+                        display: contents;
+                        h3 {
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ EDUCATION ================================
+    // ================================ EXPERIENCE ================================
+    .experience {
+        .experience-wrapper {
+            max-width: 320px;
+            padding: 80px 10px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            .experience-title {
+                padding: 0;
+                margin-bottom: 20px;
+                h2 {}
+                h3 {}
+            }
+            .experience-details {
+                padding: 10px 0;
+                .experience-details-wrapper {
+                    .experience-item {
+                        justify-content: end;
+                        flex-direction: column-reverse;
+                        margin-bottom: 30px;
+                        .experience-item-organization {
+                            width: 100%;
+                            padding: 0;
+                            h1 {}
+                            span {}
+                            ul {
+                                li {
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                        .experience-item-date {
+                            display: flex;
+                            // flex-direction: column-reverse;
+                            justify-content: space-between;
+                            padding: 10px 0;
+                            width: 100%;
+
+                            h3 {
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ EXPERIENCE ================================
+    // ================================ SKILLS ================================
+    .skills {
+        max-width: 320px;
+        padding: 80px 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        .skills-title {
+            padding: 0;
+            margin-bottom: 30px;
+            h2 {}
+            h3 {}
+        }
+        .skills-more {
+            padding-top: 30px;
+            padding-left: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .skills-category-label {
+                padding: 0 10px;
+                margin-bottom: 40px;
+                .skills-category-title {
+                }
+                .skills-category-item {
+                    font-size: $font-size-h8;
+                    line-height: $line-height-24;
+                }
+            }
+        }
+    }
+    // ================================ SKILLS ================================
+    // ================================ FEATURE PROJECT ================================
+    .project {
+        max-width: 320px;
+        padding: 80px 0;
+        margin: 0 auto;
+        .feature-project {
+            .feature-project-wrapper {
+                display: flex;
+                flex-direction: column;
+
+                .feature-project-title {
+                    padding: 0;
+                    margin-bottom: 50px;
+                    h2 {}
+                    h3 {}
+                }
+                .feature-project-details {
+                    .feature-project-details-item {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .item-show {
+                            img {
+                                width: 350px;
+                            }
+                        }
+                        .item-content {
+                            padding: 30px 0;
+                            h2 {
+                                text-align: center;
+                            }
+                            .stack {
+                                justify-content: center;
+                                button {
+                                    font-size: $font-size-h9;
+                                }
+                            }
+                            h3 {
+                                font-size: $font-size-h8;
+                                letter-spacing: 1px;
+                                text-align: center;
+                            }
+                            .item-social {
+                                .item-social-wrapper {
+                                    display: flex;
+                                    justify-content: center;
+                                    .item-social-list {
+                                        a {
+                                            svg {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ================================ FEATURE PROJECT ================================
+    // ================================ CONTACT ================================
+    .contact {
+        max-width: 320px;
+        padding: 100px 0;
+        margin-bottom: 100px;
+        .contact-wrapper {
+            .numbered-heading {
+                h2 {
+                    font-size: $font-size-h5;
+                }
+                h3 {
+                    font-size: $font-size-h5;
+                }
+            }
+            .title {
+                font-size: 45px;
+                line-height: $line-height-66;
+            }
+            p {
+                font-size: $font-size-h8;
+                letter-spacing: 1px;
+            }
+            .button-say-hello {
+                a {
+                    font-size: $font-size-h8;
+                    padding: 12px 20px;
+                }
+            }
+        }
+    }
+    // ================================ CONTACT ================================
+    // ================================ FOOTER ================================ 
+    .footer {
+        max-width: 250px;
+        .footer-wrapper {
+            a {
+                font-size: $font-size-h8;
+                line-height: $line-height-16;
+                h4 {}
+            }
+            .github-stats {
+                svg {}
+            }
+        }
+    }
+    // ================================ FOOTER ================================
 }
+// ======================================================   end max-width 480px
 
-// max-width 360px
+// ======================================================   start max-width  360px
 @include small-mobile {
+    // ================================ NAV ================================
+    .nav {
+        height: 70px;
+        .nav-content {
+            padding:20px;
+            .nav-logo {
+                width: 45px;
+                height: 45px;
+            }
+            .nav-items {
+                font-size: $font-size-h7;
+                .nav-item {
+                    &:nth-child(1),
+                    &:nth-child(2),
+                    &:nth-child(3),
+                    &:nth-child(4),
+                    &:nth-child(5),
+                    &:nth-child(6) {
+                        display: none;
+                    }
+                    margin-left: 1rem;
+                    span {}
+                    strong {}
+                }
+                .button {
+                    a {
+                        font-size: $font-size-h8;
+                        padding: 8px 12px;
+                        
+                    }
+                }
+            }
+        }
+    }
+    // ================================ NAV ================================
+    // ================================ SOCIAL ================================
+    .App {
+        .social {
+            display: none;
+            .social-wrapper {
+                display: none;
+                .social-list {
+                    display: none;
+                    a {}
+                    hr {}
+                }
+            }
+        }
+        .side {
+            display: none;
+            .side-wrapper {
+                .mailto {
+                    a {}
+                }
+                hr {}
+            }
+        }
+    }
+    // ================================ SOCIAL ================================
+    // ================================ HERO ================================
+    .hero {
+        max-width: 250px;
+        .hero-row1 {
+            font-size: $font-size-h6;
+            h1 {}
+        }
+        .hero-row2 {
+            font-size: 30px;
+            line-height: 50px;
+            h1 {
+            }
+        }
+        .hero-row3 {
+            font-size: 30px;
+            line-height: 50px;
+            h1 {
+            }
+        }
+        .hero-row4 {
+            font-size: $font-size-h7;
+            line-height: $line-height-23;
+            max-width: 300px;
+            h1 {}
+        }
+        .hero-row5 {
+            a {
+                padding: 17px 15px;
+            }
+        }
+    }
+    // ================================ HERO ================================
 
 }
+// ======================================================   end max-width  360px
+
 
 // max-width 330px
 @include tiny-mobile {

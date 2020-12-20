@@ -15,6 +15,7 @@
             font-family: $font-family-primary;
             font-weight: $font-weight-six;
             text-decoration: none;
+            @extend %selection-bg-yellow;
 
             &:hover {
                 transform: translate(0, -3px);
@@ -36,6 +37,11 @@
 
             .github-stats {
                 margin-top: 10px;
+                @extend %selection-bg-yellow;
+
+                span {
+                    @extend %selection-bg-yellow;
+                }
 
                 & > span {
                     display: inline-flex;
