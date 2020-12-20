@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9659e144.chunk.css",
-    "main.js": "/static/js/main.51569ae6.chunk.js",
-    "main.js.map": "/static/js/main.51569ae6.chunk.js.map",
+    "main.css": "/static/css/main.1ec17637.chunk.css",
+    "main.js": "/static/js/main.67c1e429.chunk.js",
+    "main.js.map": "/static/js/main.67c1e429.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa37faf0.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa37faf0.js.map",
     "static/js/2.dde16d7b.chunk.js": "/static/js/2.dde16d7b.chunk.js",
     "static/js/2.dde16d7b.chunk.js.map": "/static/js/2.dde16d7b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9659e144.chunk.css.map": "/static/css/main.9659e144.chunk.css.map",
+    "static/css/main.1ec17637.chunk.css.map": "/static/css/main.1ec17637.chunk.css.map",
     "static/js/2.dde16d7b.chunk.js.LICENSE.txt": "/static/js/2.dde16d7b.chunk.js.LICENSE.txt",
     "static/media/Resume_PhattaraphonC.0f599816.pdf": "/static/media/Resume_PhattaraphonC.0f599816.pdf",
     "static/media/favicon.ac1dad46.png": "/static/media/favicon.ac1dad46.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.fa37faf0.js",
     "static/js/2.dde16d7b.chunk.js",
-    "static/css/main.9659e144.chunk.css",
-    "static/js/main.51569ae6.chunk.js"
+    "static/css/main.1ec17637.chunk.css",
+    "static/js/main.67c1e429.chunk.js"
   ]
 }
