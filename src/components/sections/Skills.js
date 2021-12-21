@@ -46,6 +46,7 @@ function Skills({ id }) {
             <li className="skills-category-item">Git & GitHub</li>
             <li className="skills-category-item">SourceTree</li>
             <li className="skills-category-item">Trello</li>
+            <li className="skills-category-item">ClickUp</li>
             <li className="skills-category-item">Evernote</li>
             <li className="skills-category-item">Slack</li>
             <li className="skills-category-item">Keynote</li>
@@ -55,6 +56,9 @@ function Skills({ id }) {
             <li className="skills-category-item">Google Sheets</li>
             <li className="skills-category-item">Chrome DevTools</li>
             <li className="skills-category-item">Zoom</li>
+            <li className="skills-category-item">Telegram</li>
+            <li className="skills-category-item">Discord</li>
+            <li className="skills-category-item">TradingView</li>
           </div>
           <div className="skills-category-label">
             <div className="skills-category-title">DESIGN</div>
@@ -73,9 +77,12 @@ function Skills({ id }) {
             <li className="skills-category-item">Time Management</li>
             <li className="skills-category-item">Self-Development</li>
             <li className="skills-category-item">Critical Thinking</li>
+            <li className="skills-category-item">Problem Solving</li>
             <li className="skills-category-item">Leadership</li>
+            <li className="skills-category-item">Communication</li>
+            <li className="skills-category-item">Empathy</li>
             <li className="skills-category-item">Adaptability</li>
-            <li className="skills-category-item">Creativity</li>
+            <li className="skills-category-item">Resilience</li>
             <li className="skills-category-item">Growth Mindset</li>
             <li className="skills-category-item">Humility</li>
             <li className="skills-category-item">Self Directed Learning</li>
@@ -89,3 +96,4 @@ function Skills({ id }) {
 }
 
 export default Skills;
+

@@ -15,7 +15,7 @@ function About({ id }) {
             <div className="inner-left">
               <div className="inner-left-top">
                 <p>
-                  Hello! I'm Phattaraphon, a software engineer based in Bangkok,
+                  Hello! I'm Phattaraphon, a UX/Solution in Productions based in Bangkok,
                   THA.
                 </p>
                 <p>
@@ -33,13 +33,13 @@ function About({ id }) {
                   >
                     Kasetsart University
                   </a>
-                  , I joined the engineering team at{' '}
+                  , I joined the Production team at{' '}
                   <a
-                    href="https://www.boonmeelab.com/"
+                    href="https://www.icweb.co.th/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Boonmee Lab
+                    IC WEB Co., Ltd.
                   </a>{' '}
                   where I work on a wide variety of interesting and meaningful
                   projects on a daily basis.

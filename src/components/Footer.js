@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer">
            <div className="footer-wrapper">
               <a href="https://github.com/Khawoat6/khawoat6.github.io" target="_blank"  rel="noopener noreferrer">
-                <h4 >Designed by Brittany Chiang & Built by Oat Phattaraphon</h4>
+                <h4 >Inspired by Brittany Chiang & Build by Oat Phattaraphon</h4>
                 <div className="github-stats">
               <span>
                 <AiIcons.AiFillStar />

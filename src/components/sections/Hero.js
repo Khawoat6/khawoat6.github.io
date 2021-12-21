@@ -16,9 +16,9 @@ function Hero() {
         </div>
         <div className="hero-row4">
           <h1>
-            Hi, my nickname is Oat, I'm extremely interested in Data Journalism,
-            Data Visualization, Marketing and Design, I believe that Technology
-            will help humans be more comfortable and happier.
+          Hi, my nickname is Oat, I'm extremely interested in Bitcoin, Blockchain, 
+          Smart Contract and Decentralized Finance (DeFi). I believe that Technology
+          provides access to financial services for everyone, everywhere, in every situation.
           </h1>
         </div>
         <div className="hero-row5">

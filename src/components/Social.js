@@ -2,6 +2,7 @@ import React from 'react';
 import * as AiIcons from 'react-icons/ai';
 import * as FaIcons from 'react-icons/fa';
 import * as FiIcons from 'react-icons/fi';
+import * as DiIcons from 'react-icons/di';
 import Slide from 'react-reveal/Slide';
 
 function Social() {
@@ -52,6 +53,24 @@ function Social() {
             rel="noreferrer"
           >
             <FaIcons.FaTwitter size="0.75em" />
+          </a>
+        </div>
+        <div className="social-list">
+          <a
+            href="https://medium.com/@phattaraphon.c"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaIcons.FaMediumM size="0.75em" />
+          </a>
+        </div>
+        <div className="social-list">
+          <a
+            href="https://www.themargiverse.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <DiIcons.DiGhostSmall size="0.9em" />
           </a>
         </div>
         <hr />

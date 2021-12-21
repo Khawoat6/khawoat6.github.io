@@ -275,17 +275,22 @@ body.dark-mode {
 
     // ---------------------------- PROJECT
     .project {
-        .feature-project {
-            .feature-project-wrapper {
-                .feature-project-title {
+        .feature-project,
+        .other-project {
+            .feature-project-wrapper,
+            .other-project-wrapper {
+                .feature-project-title,
+                .other-project-title {
                     h2 {
                         color: $blue-sea-color;
 
                     }
                     h3 {}
                 }
-                .feature-project-details {
-                    .feature-project-details-item {
+                .feature-project-details,
+                .other-project-details {
+                    .feature-project-details-item,
+                    .other-project-details-item {
                         .item-show {
                             img {}
                         }
