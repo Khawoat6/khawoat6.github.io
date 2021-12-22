@@ -13,6 +13,23 @@ function Experience({id}) {
                     <div className="experience-details">
                         <Fade right cascade>
                         <div className="experience-details-wrapper">
+
+                            <div className="experience-item">
+                                <div className="experience-item-organization">
+                                    <h1>Business Development Associate</h1>
+                                    <span>Skooldio Co.,Ltd.</span>
+                                    <ul>
+                                        {/* <li></li>
+                                        <li></li>
+                                        <li></li> */}
+                                    </ul>
+                                </div>
+                                <div className="experience-item-date">
+                                    <h3>Jan 2022 - Present</h3>
+                                    <h3>Bangkok, THA</h3>
+                                </div>
+                            </div>
+
                             <div className="experience-item">
                                 <div className="experience-item-organization">
                                     <h1>UX/Solution in Productions</h1>
