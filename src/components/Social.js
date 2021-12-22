@@ -3,6 +3,7 @@ import * as AiIcons from 'react-icons/ai';
 import * as FaIcons from 'react-icons/fa';
 import * as FiIcons from 'react-icons/fi';
 import * as DiIcons from 'react-icons/di';
+import * as SiIcons from 'react-icons/si';
 import Slide from 'react-reveal/Slide';
 
 function Social() {
@@ -71,6 +72,15 @@ function Social() {
             rel="noreferrer"
           >
             <DiIcons.DiGhostSmall size="0.9em" />
+          </a>
+        </div>
+        <div className="social-list">
+          <a
+            href="https://www.figma.com/@kphattaraphon_c"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiIcons.SiFigma size="0.9em" />
           </a>
         </div>
         <hr />
