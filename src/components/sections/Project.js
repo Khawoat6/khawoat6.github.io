@@ -6,6 +6,7 @@ import * as AiIcons from 'react-icons/ai';
 import * as VscIcons from 'react-icons/vsc';
 import * as DiIcons from 'react-icons/di';
 import * as RiIcons from 'react-icons/ri';
+import * as BiIcons from 'react-icons/bi';
 
 function Project({ id }) {
   return (
@@ -193,6 +194,7 @@ function Project({ id }) {
                       <h3>This project is intended to develop face detection and face recognition. As part of increasing the school attendance rate of Thai students by making a face detection system. Date to indicate the student’s arrival at school and can notify the parent application line and help parents know the behavior of students coming to school and help solve problems of students coming to school as well.</h3>
                       <div className="stack">
                         <button>OpenCV</button>
+                        <button>LBPH</button>
                         <button>Python</button>
                         <button>Numpy</button>
                         <button>Pandas</button>
@@ -204,20 +206,29 @@ function Project({ id }) {
                         <div className="item-social-wrapper">
                           <div className="item-social-list">
                             <a
-                              href="https://github.com/covid19-deepverse/covid19-deepverse.io"
+                              href="https://drive.google.com/drive/folders/1-ccNnNQZTfZ1mUW1hxDkUeknkzp3OXmV?usp=sharing"
                               target="_blank"
                               rel="noreferrer"
                             >
-                              <DiIcons.DiGoogleDrive size="1.7em" />
+                              <DiIcons.DiCodeBadge size="1.7em" />
                             </a>
                           </div>
                           <div className="item-social-list">
                             <a
-                              href="http://174.138.22.85:3000/"
+                              href="https://drive.google.com/file/d/1Kl7Wdx25JErJsy1lighpt2B9e2FyaQ1k/view?usp=sharing"
                               target="_blank"
                               rel="noreferrer"
                             >
-                              <RiIcons.RiKeynoteLine size="1.4em" />
+                              <RiIcons.RiKeynoteLine size="1.5em" />
+                            </a>
+                          </div>
+                          <div className="item-social-list">
+                            <a
+                              href="https://www.youtube.com/watch?v=3aoNfOsOAUo"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <AiIcons.AiOutlineYoutube size="1.7em" />
                             </a>
                           </div>
 
@@ -231,38 +242,25 @@ function Project({ id }) {
               <Fade right cascade>
                 <div className="other-project-details-item">
                     <div className="item-content">
-                      <h2>School attendance system with line notification based on face recognition</h2>
-                      <h3>This project is intended to develop face detection and face recognition. As part of increasing the school attendance rate of Thai students by making a face detection system. Date to indicate the student’s arrival at school and can notify the parent application line and help parents know the behavior of students coming to school and help solve problems of students coming to school as well.</h3>
+                      <h2>BMI Calculate</h2>
+                      {/* <h3>Build Website E-commerce with Laravel 5.5 , Project Final 2017</h3> */}
                       <div className="stack">
-                        <button>OpenCV</button>
-                        <button>Python</button>
-                        <button>Numpy</button>
-                        <button>Pandas</button>
-                        <button>pip</button>
-                        <button>PyCharm</button>
-                        <button>LINE Nofity API</button>
+                        <button>React Native</button>
+                        <button>JS (ES6)</button>
+                        <button>CSS3</button>
+                        <button>Expo</button>
                       </div>
                       <div className="item-social">
                         <div className="item-social-wrapper">
                           <div className="item-social-list">
                             <a
-                              href="https://github.com/covid19-deepverse/covid19-deepverse.io"
+                              href="https://github.com/Khawoat6/program-return-name-is-top"
                               target="_blank"
                               rel="noreferrer"
                             >
-                              <DiIcons.DiGoogleDrive size="1.7em" />
+                              <AiIcons.AiFillGithub size="1.4em" />
                             </a>
                           </div>
-                          <div className="item-social-list">
-                            <a
-                              href="http://174.138.22.85:3000/"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <RiIcons.RiKeynoteLine size="1.4em" />
-                            </a>
-                          </div>
-
                         </div>
                       </div>
 
