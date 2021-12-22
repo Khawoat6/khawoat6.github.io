@@ -50,7 +50,7 @@ function Experience({id}) {
                             
                             <div className="experience-item">
                                 <div className="experience-item-organization">
-                                    <h1>Content Writer at YPP</h1>
+                                    <h1>Content Writer (Volunteered)</h1>
                                     <span>Young Passionate Program (YPP) by YEAH x Lean Startup TH</span>
                                     <ul>
                                         <li>Volunteered on content writer in Young  Lean Entrepreneur, Young Digital Marketeer and Young Innovation Creator</li>
@@ -63,8 +63,8 @@ function Experience({id}) {
                             </div>
                             <div className="experience-item">
                                 <div className="experience-item-organization">
-                                    <h1>Graphic Design at EXP Program</h1>
-                                    <span>EXP Program by YEAH x Sharing Citizen x Growth cafe & co.</span>
+                                    <h1>Graphic Designer (Volunteered)</h1>
+                                    <span>EXP Program by YEAH x Sharing Citizen x Growth Cafe & Co.</span>
                                     <ul>
                                         <li>Attended on graphic design in EXP Program is a course event management and digital marketing</li>
                                     </ul>
