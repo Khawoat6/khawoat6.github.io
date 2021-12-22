@@ -15,7 +15,7 @@ function About({ id }) {
             <div className="inner-left">
               <div className="inner-left-top">
                 <p>
-                  Hello! I'm Phattaraphon, a UX/Solution in Productions based in Bangkok,
+                  Hello! I'm Phattaraphon, a Business Development Associate based in Bangkok,
                   THA.
                 </p>
                 <p>
