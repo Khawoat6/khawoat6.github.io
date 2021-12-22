@@ -18,17 +18,12 @@ function Experience({id}) {
                                     <h1>UX/Solution in Productions</h1>
                                     <span>IC WEB Co.,Ltd.</span>
                                     <ul>
-                                        <li>K-BIZ</li>
-                                        <li>Singha Estate Commercial</li>
-                                        <li>SECAP</li>
-                                        <li>Catcher</li>
-                                        <li>K PLUS Pitching</li>
-                                        <li>KBANK API Portal</li>
-                                        <li>JDB</li>
-                                        <li>EXIM Bank</li>
-                                        <li>Jaadhai Motor Insurance</li>
-                                        <li>Jaadhai ravel Insurance</li>
-                                        <li>MoU Collaboration : Searching for the Memoranda of Understanding between Chulalongkorn University and its partner universities.</li>
+                                        <li>KBank | K-BIZ Microsite : Designed a new user interface to explain the function and tutorials of K-BIZ; It’s can reduce a customer calling to a call center</li>
+                                        <li>EXIM Bank of Thailand : Collaborated across various teams to improve design systems, visual designs, and recommend ideating new concept with UI Designer</li>
+                                        <li>KBank | K PLUS Microsite (Pitching) : Redesigned website and collaborated with Project Manager, Customer Service and UI Designer teams to created wireframes, prototyped on mobile device and hierarchical site structure K PLUS website</li>
+                                        <li>Jaadhai Insurance (MSIG) : Worked iteratively to design, define, and validate solutions for Jaadhai Insurance website</li>
+                                        <li>Joint Development Bank (JDB Bank) : Worked with MD, Customer Services, UI Designer teams. to created wireframes, user flows, and interaction prototyped for Bank Account Registration Form</li>
+                                        <li>KSingha Estate Commercial Microsite : Collaborated with Project Manager, Customer Services and UI Designer teams to create wireframes, prototypes, personas, and user stories based on interviews and google analytics</li>
                                     </ul>
                                 </div>
                                 <div className="experience-item-date">
@@ -43,8 +38,8 @@ function Experience({id}) {
                                     <h1>Frontend Developer Internship</h1>
                                     <span>Boonmee Lab Co.,Ltd.</span>
                                     <ul>
-                                        <li>Punch Up x Thairath : ปลาทูไทยกำลังจะหายไปจากโลก</li>
-                                        <li>MoU Collaboration : Searching for the Memoranda of Understanding between Chulalongkorn University and its partner universities.</li>
+                                        <li>Punch Up x ThairatTV (ปลาทูไทยกำลังจะหายไปจากโลก) : Developed data journalism website using React, Next, and Emotion. The project was got honorable mention award  from Digital News Excellence Awards 2019</li>
+                                        <li>MoU Collaboration : Worked with a team BML (Internship 2019) to build a website type of Data Visualization for the client about searching for the memoranda of understanding between Chulalongkorn University and its partner of universities</li>
                                     </ul>
                                 </div>
                                 <div className="experience-item-date">

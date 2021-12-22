@@ -27,7 +27,7 @@ function Education() {
                             <div className="education-detail-right">
                                 <h3>Jul. 2016 - 2020</h3>
                                 <h3>Chonburi, THA</h3>
-                                <h3>GPAX 2.53</h3>
+                                {/* <h3>GPAX 2.53</h3> */}
                             </div>
                         </div>
                         <div className="education-detail-item">
@@ -53,7 +53,7 @@ function Education() {
                             <div className="education-detail-right">
                                 <h3>May.  2012 - 2014</h3>
                                 <h3>Khonkaen, THA</h3>
-                                <h3>GPAX 2.87</h3>
+                                {/* <h3>GPAX 2.87</h3> */}
                             </div>
                         </div>
                     </div>
